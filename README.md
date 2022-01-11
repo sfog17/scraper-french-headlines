@@ -13,7 +13,7 @@ of the main sources of information in France.
 
 ## Implementation
 
-Websites:
+The most popular websites were selected (see appendix)
 
 - [x] [Le Monde](https://www.lemonde.fr/)
 - [x] [Le Figaro](https://www.lefigaro.fr/)
@@ -23,18 +23,22 @@ Websites:
 - [x] [Le Parisien](https://www.leparisien.fr/)
 - [x] [BFM TV](https://www.bfmtv.com/)
 
-Notes:
+Other less popular but more politically biased websites have been added for comparisons
 
-- The video in "Le Figaro" is not included because it is triggered by Javascript.
+- [x] [Mediapart](https://www.mediapart.fr/)
+- [x] [CNews](https://www.cnews.fr/)
 
 The data is output to `data`. Each CSV file is formatted with a timestamp in UTC.
 
-## Challenges
+## Implementation challenges
 
 - Parsing webpage to extract articles (using `beautifulsoup`)
 - Refactor to limit code duplication with inherited classes
 - Ouest France requires JavaScript: replace `requests` with `selenium` and `webdriver_manager`
-- Ouest France uses reCAPTCHA -> not solved
+- Automatically scrape using GitHub actions (inspired by <https://simonwillison.net/2020/Oct/9/git-scraping/>)
+
+The main limitation to extend is that each website require some manual customisation 
+because there are no obvious patterns in the html structure.
 
 ## Appendix
 
