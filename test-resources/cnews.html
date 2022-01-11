@@ -1,0 +1,2313 @@
+<html class="no-js js" dir="ltr" lang="fr" xmlns:article="http://ogp.me/ns/article#" xmlns:book="http://ogp.me/ns/book#" xmlns:fb="http://ogp.me/ns/fb#" xmlns:og="http://ogp.me/ns#" xmlns:product="http://ogp.me/ns/product#" xmlns:profile="http://ogp.me/ns/profile#" xmlns:video="http://ogp.me/ns/video#">
+ <!--<![endif]-->
+ <head>
+  <title>
+   Actualités, Infos et News en direct vidéo et replay | CNEWS
+  </title>
+  <!--[if IE]><![endif]-->
+  <meta content="Actualité en direct, 24/24. Le site de la chaîne d’information en continu et du quotidien CNEWS. Monde, politique, faits divers, sport, culture, people… Reportages en vidéo, le replay, les articles, le éditions du journal en PDF" name="description"/>
+  <link href="//static.cnews.fr" rel="dns-prefetch"/>
+  <link href="//static.cnews.fr" rel="preconnect"/>
+  <meta content="text/html; charset=utf-8" http-equiv="Content-Type"/>
+  <script async="" charset="utf-8" id="spcloader" src="https://sdk.privacy-center.org/7efa698a-0bf0-4207-86ea-168ded1d5572/loader.js?target=www.cnews.fr" type="text/javascript">
+  </script>
+  <script type="text/javascript">
+   (window.NREUM||(NREUM={})).init={privacy:{cookies_enabled:true},ajax:{deny_list:["bam-cell.nr-data.net"]}};(window.NREUM||(NREUM={})).loader_config={licenseKey:"16073fc0f5",applicationID:"170788116"};window.NREUM||(NREUM={}),__nr_require=function(t,e,n){function r(n){if(!e[n]){var i=e[n]={exports:{}};t[n][0].call(i.exports,function(e){var i=t[n][1][e];return r(i||e)},i,i.exports)}return e[n].exports}if("function"==typeof __nr_require)return __nr_require;for(var i=0;i<n.length;i++)r(n[i]);return r}({1:[function(t,e,n){function r(){}function i(t,e,n,r){return function(){return s.recordSupportability("API/"+e+"/called"),o(t+e,[u.now()].concat(c(arguments)),n?null:this,r),n?void 0:this}}var o=t("handle"),a=t(10),c=t(11),f=t("ee").get("tracer"),u=t("loader"),s=t(4),d=NREUM;"undefined"==typeof window.newrelic&&(newrelic=d);var p=["setPageViewName","setCustomAttribute","setErrorHandler","finished","addToTrace","inlineHit","addRelease"],l="api-",v=l+"ixn-";a(p,function(t,e){d[e]=i(l,e,!0,"api")}),d.addPageAction=i(l,"addPageAction",!0),d.setCurrentRouteName=i(l,"routeName",!0),e.exports=newrelic,d.interaction=function(){return(new r).get()};var m=r.prototype={createTracer:function(t,e){var n={},r=this,i="function"==typeof e;return o(v+"tracer",[u.now(),t,n],r),function(){if(f.emit((i?"":"no-")+"fn-start",[u.now(),r,i],n),i)try{return e.apply(this,arguments)}catch(t){throw f.emit("fn-err",[arguments,this,t],n),t}finally{f.emit("fn-end",[u.now()],n)}}}};a("actionText,setName,setAttribute,save,ignore,onEnd,getContext,end,get".split(","),function(t,e){m[e]=i(v,e)}),newrelic.noticeError=function(t,e){"string"==typeof t&&(t=new Error(t)),s.recordSupportability("API/noticeError/called"),o("err",[t,u.now(),!1,e])}},{}],2:[function(t,e,n){function r(t){if(NREUM.init){for(var e=NREUM.init,n=t.split("."),r=0;r<n.length-1;r++)if(e=e[n[r]],"object"!=typeof e)return;return e=e[n[n.length-1]]}}e.exports={getConfiguration:r}},{}],3:[function(t,e,n){var r=!1;try{var i=Object.defineProperty({},"passive",{get:function(){r=!0}});window.addEventListener("testPassive",null,i),window.removeEventListener("testPassive",null,i)}catch(o){}e.exports=function(t){return r?{passive:!0,capture:!!t}:!!t}},{}],4:[function(t,e,n){function r(t,e){var n=[a,t,{name:t},e];return o("storeMetric",n,null,"api"),n}function i(t,e){var n=[c,t,{name:t},e];return o("storeEventMetrics",n,null,"api"),n}var o=t("handle"),a="sm",c="cm";e.exports={constants:{SUPPORTABILITY_METRIC:a,CUSTOM_METRIC:c},recordSupportability:r,recordCustom:i}},{}],5:[function(t,e,n){function r(){return c.exists&&performance.now?Math.round(performance.now()):(o=Math.max((new Date).getTime(),o))-a}function i(){return o}var o=(new Date).getTime(),a=o,c=t(12);e.exports=r,e.exports.offset=a,e.exports.getLastTimestamp=i},{}],6:[function(t,e,n){function r(t){return!(!t||!t.protocol||"file:"===t.protocol)}e.exports=r},{}],7:[function(t,e,n){function r(t,e){var n=t.getEntries();n.forEach(function(t){"first-paint"===t.name?p("timing",["fp",Math.floor(t.startTime)]):"first-contentful-paint"===t.name&&p("timing",["fcp",Math.floor(t.startTime)])})}function i(t,e){var n=t.getEntries();if(n.length>0){var r=n[n.length-1];if(f&&f<r.startTime)return;p("lcp",[r])}}function o(t){t.getEntries().forEach(function(t){t.hadRecentInput||p("cls",[t])})}function a(t){if(t instanceof g&&!y){var e=Math.round(t.timeStamp),n={type:t.type};e<=l.now()?n.fid=l.now()-e:e>l.offset&&e<=Date.now()?(e-=l.offset,n.fid=l.now()-e):e=l.now(),y=!0,p("timing",["fi",e,n])}}function c(t){"hidden"===t&&(f=l.now(),p("pageHide",[f]))}if(!("init"in NREUM&&"page_view_timing"in NREUM.init&&"enabled"in NREUM.init.page_view_timing&&NREUM.init.page_view_timing.enabled===!1)){var f,u,s,d,p=t("handle"),l=t("loader"),v=t(9),m=t(3),g=NREUM.o.EV;if("PerformanceObserver"in window&&"function"==typeof window.PerformanceObserver){u=new PerformanceObserver(r);try{u.observe({entryTypes:["paint"]})}catch(h){}s=new PerformanceObserver(i);try{s.observe({entryTypes:["largest-contentful-paint"]})}catch(h){}d=new PerformanceObserver(o);try{d.observe({type:"layout-shift",buffered:!0})}catch(h){}}if("addEventListener"in document){var y=!1,w=["click","keydown","mousedown","pointerdown","touchstart"];w.forEach(function(t){document.addEventListener(t,a,m(!1))})}v(c)}},{}],8:[function(t,e,n){function r(t,e){if(!i)return!1;if(t!==i)return!1;if(!e)return!0;if(!o)return!1;for(var n=o.split("."),r=e.split("."),a=0;a<r.length;a++)if(r[a]!==n[a])return!1;return!0}var i=null,o=null,a=/Version\/(\S+)\s+Safari/;if(navigator.userAgent){var c=navigator.userAgent,f=c.match(a);f&&c.indexOf("Chrome")===-1&&c.indexOf("Chromium")===-1&&(i="Safari",o=f[1])}e.exports={agent:i,version:o,match:r}},{}],9:[function(t,e,n){function r(t){function e(){t(c&&document[c]?document[c]:document[o]?"hidden":"visible")}"addEventListener"in document&&a&&document.addEventListener(a,e,i(!1))}var i=t(3);e.exports=r;var o,a,c;"undefined"!=typeof document.hidden?(o="hidden",a="visibilitychange",c="visibilityState"):"undefined"!=typeof document.msHidden?(o="msHidden",a="msvisibilitychange"):"undefined"!=typeof document.webkitHidden&&(o="webkitHidden",a="webkitvisibilitychange",c="webkitVisibilityState")},{}],10:[function(t,e,n){function r(t,e){var n=[],r="",o=0;for(r in t)i.call(t,r)&&(n[o]=e(r,t[r]),o+=1);return n}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],11:[function(t,e,n){function r(t,e,n){e||(e=0),"undefined"==typeof n&&(n=t?t.length:0);for(var r=-1,i=n-e||0,o=Array(i<0?0:i);++r<i;)o[r]=t[e+r];return o}e.exports=r},{}],12:[function(t,e,n){e.exports={exists:"undefined"!=typeof window.performance&&window.performance.timing&&"undefined"!=typeof window.performance.timing.navigationStart}},{}],ee:[function(t,e,n){function r(){}function i(t){function e(t){return t&&t instanceof r?t:t?u(t,f,a):a()}function n(n,r,i,o,a){if(a!==!1&&(a=!0),!l.aborted||o){t&&a&&t(n,r,i);for(var c=e(i),f=m(n),u=f.length,s=0;s<u;s++)f[s].apply(c,r);var p=d[w[n]];return p&&p.push([b,n,r,c]),c}}function o(t,e){y[t]=m(t).concat(e)}function v(t,e){var n=y[t];if(n)for(var r=0;r<n.length;r++)n[r]===e&&n.splice(r,1)}function m(t){return y[t]||[]}function g(t){return p[t]=p[t]||i(n)}function h(t,e){l.aborted||s(t,function(t,n){e=e||"feature",w[n]=e,e in d||(d[e]=[])})}var y={},w={},b={on:o,addEventListener:o,removeEventListener:v,emit:n,get:g,listeners:m,context:e,buffer:h,abort:c,aborted:!1};return b}function o(t){return u(t,f,a)}function a(){return new r}function c(){(d.api||d.feature)&&(l.aborted=!0,d=l.backlog={})}var f="nr@context",u=t("gos"),s=t(10),d={},p={},l=e.exports=i();e.exports.getOrSetContext=o,l.backlog=d},{}],gos:[function(t,e,n){function r(t,e,n){if(i.call(t,e))return t[e];var r=n();if(Object.defineProperty&&Object.keys)try{return Object.defineProperty(t,e,{value:r,writable:!0,enumerable:!1}),r}catch(o){}return t[e]=r,r}var i=Object.prototype.hasOwnProperty;e.exports=r},{}],handle:[function(t,e,n){function r(t,e,n,r){i.buffer([t],r),i.emit(t,e,n)}var i=t("ee").get("handle");e.exports=r,r.ee=i},{}],id:[function(t,e,n){function r(t){var e=typeof t;return!t||"object"!==e&&"function"!==e?-1:t===window?0:a(t,o,function(){return i++})}var i=1,o="nr@id",a=t("gos");e.exports=r},{}],loader:[function(t,e,n){function r(){if(!T++){var t=P.info=NREUM.info,e=g.getElementsByTagName("script")[0];if(setTimeout(u.abort,3e4),!(t&&t.licenseKey&&t.applicationID&&e))return u.abort();f(O,function(e,n){t[e]||(t[e]=n)});var n=a();c("mark",["onload",n+P.offset],null,"api"),c("timing",["load",n]);var r=g.createElement("script");0===t.agent.indexOf("http://")||0===t.agent.indexOf("https://")?r.src=t.agent:r.src=v+"://"+t.agent,e.parentNode.insertBefore(r,e)}}function i(){"complete"===g.readyState&&o()}function o(){c("mark",["domContent",a()+P.offset],null,"api")}var a=t(5),c=t("handle"),f=t(10),u=t("ee"),s=t(8),d=t(6),p=t(2),l=t(3),v=p.getConfiguration("ssl")===!1?"http":"https",m=window,g=m.document,h="addEventListener",y="attachEvent",w=m.XMLHttpRequest,b=w&&w.prototype,E=!d(m.location);NREUM.o={ST:setTimeout,SI:m.setImmediate,CT:clearTimeout,XHR:w,REQ:m.Request,EV:m.Event,PR:m.Promise,MO:m.MutationObserver};var x=""+location,O={beacon:"bam.nr-data.net",errorBeacon:"bam.nr-data.net",agent:"js-agent.newrelic.com/nr-1212.min.js"},M=w&&b&&b[h]&&!/CriOS/.test(navigator.userAgent),P=e.exports={offset:a.getLastTimestamp(),now:a,origin:x,features:{},xhrWrappable:M,userAgent:s,disabled:E};if(!E){t(1),t(7),g[h]?(g[h]("DOMContentLoaded",o,l(!1)),m[h]("load",r,l(!1))):(g[y]("onreadystatechange",i),m[y]("onload",r)),c("mark",["firstbyte",a.getLastTimestamp()],null,"api");var T=0}},{}],"wrap-function":[function(t,e,n){function r(t,e){function n(e,n,r,f,u){function nrWrapper(){var o,a,s,p;try{a=this,o=d(arguments),s="function"==typeof r?r(o,a):r||{}}catch(l){i([l,"",[o,a,f],s],t)}c(n+"start",[o,a,f],s,u);try{return p=e.apply(a,o)}catch(v){throw c(n+"err",[o,a,v],s,u),v}finally{c(n+"end",[o,a,p],s,u)}}return a(e)?e:(n||(n=""),nrWrapper[p]=e,o(e,nrWrapper,t),nrWrapper)}function r(t,e,r,i,o){r||(r="");var c,f,u,s="-"===r.charAt(0);for(u=0;u<e.length;u++)f=e[u],c=t[f],a(c)||(t[f]=n(c,s?f+r:r,i,f,o))}function c(n,r,o,a){if(!v||e){var c=v;v=!0;try{t.emit(n,r,o,e,a)}catch(f){i([f,n,r,o],t)}v=c}}return t||(t=s),n.inPlace=r,n.flag=p,n}function i(t,e){e||(e=s);try{e.emit("internal-error",t)}catch(n){}}function o(t,e,n){if(Object.defineProperty&&Object.keys)try{var r=Object.keys(t);return r.forEach(function(n){Object.defineProperty(e,n,{get:function(){return t[n]},set:function(e){return t[n]=e,e}})}),e}catch(o){i([o],n)}for(var a in t)l.call(t,a)&&(e[a]=t[a]);return e}function a(t){return!(t&&t instanceof Function&&t.apply&&!t[p])}function c(t,e){var n=e(t);return n[p]=t,o(t,n,s),n}function f(t,e,n){var r=t[e];t[e]=c(r,n)}function u(){for(var t=arguments.length,e=new Array(t),n=0;n<t;++n)e[n]=arguments[n];return e}var s=t("ee"),d=t(11),p="nr@original",l=Object.prototype.hasOwnProperty,v=!1;e.exports=r,e.exports.wrapFunction=c,e.exports.wrapInPlace=f,e.exports.argsToArray=u},{}]},{},["loader"]);
+  </script>
+  <meta content="on" http-equiv="x-dns-prefetch-control"/>
+  <link href="//static.cnews.fr" rel="dns-prefetch"/>
+  <!--[if IE 9]>
+<link rel="prefetch" href="//static.cnews.fr" />
+<![endif]-->
+  <link href="https://www.cnews.fr/rss.xml" rel="alternate" title="CNEWS RSS"/>
+  <script type="application/ld+json">
+   {"@context":"https:\/\/schema.org","@type":"WebSite","name":"CNews","alternateName":"Actualit\u00e9s et Infos en direct vid\u00e9o et replay","url":"https:\/\/www.cnews.fr","image":"https:\/\/static.cnews.fr\/sites\/default\/files\/cnews_logo\/cnews-logo-300x300_5dee447eed80f.png"}
+  </script>
+  <script type="application/ld+json">
+   {"@context":"https:\/\/schema.org","@type":"NewsMediaOrganization","name":"CNEWS","url":"https:\/\/www.cnews.fr","logo":"https:\/\/static.cnews.fr\/sites\/default\/files\/cnews_logo\/cnews-logo-600x60_5dee2b6350d44.png","sameAs":["https:\/\/www.facebook.com\/CNEWSofficiel\/","https:\/\/twitter.com\/cnews\/","https:\/\/www.instagram.com\/cnewsofficiel\/"]}
+  </script>
+  <link href="https://static.cnews.fr/sites/default/files/cnews-favicon_5f170ef448901.ico" rel="shortcut icon"/>
+  <meta content="76952916976" property="fb:pages"/>
+  <link href="https://www.cnews.fr/" rel="canonical"/>
+  <link href="https://www.cnews.fr/" rel="shortlink"/>
+  <meta content="fr" http-equiv="content-language"/>
+  <meta content="76952916976" property="fb:pages"/>
+  <meta content="website" property="og:type"/>
+  <meta content="CNEWS" property="og:site_name"/>
+  <meta content="https://www.cnews.fr/" property="og:url"/>
+  <meta content="CNEWS | Actualités, Infos et News en direct vidéo et replay" property="og:title"/>
+  <meta content="Le site de la chaîne d’information en continu et du quotidien CNEWS. Monde, politique, faits divers, sport, culture, people… Reportages en vidéo, le replay, les articles, le éditions du journal en PDF : toute l’actualité en direct, 24/24." property="og:description"/>
+  <meta content="https://www.cnews.fr/sites/default/files/directmatin/sharing-home.jpg" property="og:image:url"/>
+  <meta content="summary_large_image" name="twitter:card"/>
+  <meta content="@cnews" name="twitter:site"/>
+  <meta content="18396319" name="twitter:site:id"/>
+  <meta content="https://www.cnews.fr/" name="twitter:url"/>
+  <meta content="CNEWS | Actualités, Infos et News en direct vidéo et replay" name="twitter:title"/>
+  <meta content="Le site de la chaîne d’information en continu et du quotidien CNEWS. Monde, politique, faits divers, sport, culture, people… Reportages en vidéo, le replay, les articles, le éditions du journal en PDF : toute l’actualité en direct, 24/24." name="twitter:description"/>
+  <meta content="https://www.cnews.fr/sites/default/files/directmatin/sharing-home.jpg" name="twitter:image"/>
+  <meta content="CNews" name="twitter:app:name:iphone"/>
+  <meta content="555661512" name="twitter:app:id:iphone"/>
+  <meta content="CNews" name="twitter:app:name:ipad"/>
+  <meta content="555661512" name="twitter:app:id:ipad"/>
+  <meta content="CNews" name="twitter:app:name:googleplay"/>
+  <meta content="fr.canalplus.itele" name="twitter:app:id:googleplay"/>
+  <meta content="width" name="MobileOptimized"/>
+  <meta content="true" name="HandheldFriendly"/>
+  <meta content="initial-scale=1.0,width=device-width" name="viewport"/>
+  <meta content="on" http-equiv="cleartype"/>
+  <meta content="yes" name="apple-mobile-web-app-capable"/>
+  <meta content="black-translucent" name="apple-mobile-web-app-status-bar-style"/>
+  <meta content="1wo6FYT5AeaGgDPN3eAFe-8rF6vYqGCPESVnbL3pgiA" name="google-site-verification"/>
+  <meta content="app-id=411438424" name="apple-itunes-app"/>
+  <meta content="app-id=fr.canalplus.itele" name="google-play-app"/>
+  <link href="https://www.cnews.fr/rss.xml" rel="alternate" type="application/rss+xml"/>
+  <meta content="index,follow,max-snippet:-1,max-image-preview:large,max-video-preview:-1" name="robots"/>
+  <link as="font" crossorigin="anonymous" href="/sites/all/themes/directmatinv4/fonts/LeagueGothic/LeagueGothic-Italic.woff2" rel="preload" type="font/woff2"/>
+  <link as="font" crossorigin="anonymous" href="/sites/all/themes/directmatinv4/fonts/CanalDemiRomain.woff2" rel="preload" type="font/woff2"/>
+  <link as="font" crossorigin="anonymous" href="/sites/all/themes/directmatinv4/fonts/CanalDemItalique.woff2" rel="preload" type="font/woff2"/>
+  <link as="font" crossorigin="anonymous" href="/sites/all/themes/directmatinv4/fonts/CanalLightRomain.woff2" rel="preload" type="font/woff2"/>
+  <link as="font" crossorigin="anonymous" href="/sites/all/themes/directmatinv4/fonts/CanalBoldRomain.woff2" rel="preload" type="font/woff2"/>
+  <link as="font" crossorigin="anonymous" href="/sites/all/themes/directmatinv4/fonts/Georgia/Georgia.woff2" rel="preload" type="font/woff2"/>
+  <link href="https://www.cnews.fr/sites/all/themes/directmatinv4/apple-touch-icon-144x144.png" rel="apple-touch-icon" sizes="144x144"/>
+  <link href="https://www.cnews.fr/sites/all/themes/directmatinv4/apple-touch-icon-114x114.png" rel="apple-touch-icon" sizes="114x114"/>
+  <link href="https://www.cnews.fr/sites/all/themes/directmatinv4/apple-touch-icon-72x72.png" rel="apple-touch-icon" sizes="72x72"/>
+  <link href="https://www.cnews.fr/sites/all/themes/directmatinv4/apple-touch-icon.png" rel="apple-touch-icon"/>
+  <link href="https://www.cnews.fr/sites/all/themes/directmatinv4/apple-startup.png" rel="apple-touch-startup-image"/>
+  <link href="/sites/default/files/advagg_css/css__5UxPOLBKdB4Y-EiJZ4eq4m8wY19j4YqlbHHK0gXrb0E__TRLkK7PDo2aWVJoE8QKMTiL5oV7AbCF09M-WjtcTijE__XGjoKAeLwtV_vhCXTa61mI7tYnQcVuMOGZVHbNTe8Wc.css" rel="stylesheet"/>
+  <script type="text/javascript">
+   window.gdprAppliesGlobally=true;(function(){function a(e){if(!window.frames[e]){if(document.body&&document.body.firstChild){var t=document.body;var n=document.createElement("iframe");n.style.display="none";n.name=e;n.title=e;t.insertBefore(n,t.firstChild)}
+    else{setTimeout(function(){a(e)},5)}}}function e(n,r,o,c,s){function e(e,t,n,a){if(typeof n!=="function"){return}if(!window[r]){window[r]=[]}var i=false;if(s){i=s(e,t,n)}if(!i){window[r].push({command:e,parameter:t,callback:n,version:a})}}e.stub=true;function t(a){if(!window[n]||window[n].stub!==true){return}if(!a.data){return}
+    var i=typeof a.data==="string";var e;try{e=i?JSON.parse(a.data):a.data}catch(t){return}if(e[o]){var r=e[o];window[n](r.command,r.parameter,function(e,t){var n={};n[c]={returnValue:e,success:t,callId:r.callId};a.source.postMessage(i?JSON.stringify(n):n,"*")},r.version)}}
+    if(typeof window[n]!=="function"){window[n]=e;if(window.addEventListener){window.addEventListener("message",t,false)}else{window.attachEvent("onmessage",t)}}}e("__tcfapi","__tcfapiBuffer","__tcfapiCall","__tcfapiReturn");a("__tcfapiLocator");(function(e){
+    var t=document.createElement("script");t.id="spcloader";t.type="text/javascript";t.async=true;t.src="https://sdk.privacy-center.org/"+e+"/loader.js?target="+document.location.hostname;t.charset="utf-8";var n=document.getElementsByTagName("script")[0];n.parentNode.insertBefore(t,n)})("7efa698a-0bf0-4207-86ea-168ded1d5572")})();
+  </script>
+  <script async="" src="/cdn-cgi/bm/cv/669835187/api.js">
+  </script>
+ </head>
+ <body class="front no-sidebars" id="body-dm">
+  <iframe name="__tcfapiLocator" style="display: none;" title="__tcfapiLocator">
+  </iframe>
+  <div id="wrapper-banner">
+  </div>
+  <div id="wrapper-site">
+   <div id="alert-band">
+    <div class="block block-dm-hpm" id="block-dm-hpm-header-alert-band">
+     <div class="block-content">
+      <div class="ajaxblocks-wrapper" id="block-dm_hpm-header_alert_band-ajax-content">
+      </div>
+     </div>
+    </div>
+   </div>
+   <header role="banner">
+    <div class="header-wrapper">
+     <div class="header-left">
+      <figure id="logo">
+       <a href="/" rel="home" title="Accueil">
+        <img alt="Accueil" src="https://static.cnews.fr/sites/all/themes/directmatinv4/cnews-logo.png"/>
+       </a>
+      </figure>
+      <div class="icon-header hamburger-menu">
+      </div>
+      <div class="icon-header icon-search desktop-search">
+       <div class="block block-search-api-page" id="block-search-api-page-rechercher">
+        <div class="block-content">
+         <form accept-charset="UTF-8" action="/" id="search-api-page-search-form-rechercher" method="post">
+          <div>
+           <label class="element-invisible" for="edit-keys-1">
+            Saisissez vos mots-clés
+           </label>
+           <input id="edit-keys-1" maxlength="128" name="keys_1" placeholder="Saisissez vos mots-clés" size="30" type="text" value=""/>
+          </div>
+          <input name="id" type="hidden" value="1"/>
+          <input id="edit-submit-1" name="op" type="submit" value="Rechercher"/>
+          <input name="form_build_id" type="hidden" value="form-cf-Ql8zqDpj3SVrLS28NJwP-FxMJwp39fNT9Cn4KqAg"/>
+          <input name="form_id" type="hidden" value="search_api_page_search_form_rechercher"/>
+         </form>
+        </div>
+       </div>
+      </div>
+      <div class="icon-header icon-search mobile-search">
+       <a href="/rechercher" id="search-link">
+       </a>
+      </div>
+     </div>
+     <div class="header-middle">
+      <div id="top-menu">
+       <nav class="block block-menu" id="block-menu-menu-top-menu" role="navigation">
+        <ul>
+         <li>
+          <a class="active" href="/">
+           L'Actu
+          </a>
+         </li>
+         <li>
+          <a href="/le-direct">
+           Le Direct
+          </a>
+         </li>
+         <li>
+          <a href="/le-top">
+           Le Top
+          </a>
+         </li>
+         <li>
+          <a href="/replay">
+           Le Replay
+          </a>
+         </li>
+        </ul>
+       </nav>
+      </div>
+     </div>
+     <div class="header-right">
+      <div class="header-social">
+       <a href="https://www.facebook.com/CNEWSofficiel" id="btn_fcbk" target="_blank">
+        <span>
+         Facebook
+        </span>
+       </a>
+       <a href="https://twitter.com/cnews" id="btn_twtr" target="_blank">
+        <span>
+         Twitter
+        </span>
+       </a>
+      </div>
+     </div>
+    </div>
+    <div class="clear">
+     <!-- -->
+    </div>
+   </header>
+   <div id="menuburger">
+    <div class="block block-dm-menuburger" id="block-dm-menuburger-dm-menuburger" role="navigation">
+     <div class="ajaxblocks-wrapper" id="block-dm_menuburger-dm_menuburger-ajax-content">
+      <script type="text/javascript">
+      </script>
+      <noscript>
+       <nav class="block block-menu" id="block-menu-menu-menu-highlight-terms" role="navigation">
+        <ul>
+         <li>
+          <a class="hl-link" href="https://www.cnews.fr/coronavirus">
+           <img alt="" class="img-menuburger" data-echo="https://static.cnews.fr/sites/default/files/styles/image_295_165/public/capture_decran_2022-01-09_a_07.37.03_61da82a42fd65.png?itok=K9UTZxXc" data-icon="" height="165" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="[Christophe ARCHAMBAULT / AFP]" width="295">
+            <noscript>
+             <img alt="" class="img-menuburger" height="165" src="https://static.cnews.fr/sites/default/files/styles/image_295_165/public/capture_decran_2022-01-09_a_07.37.03_61da82a42fd65.png?itok=K9UTZxXc" title="[Christophe ARCHAMBAULT / AFP]" width="295"/>
+            </noscript>
+            <span class="menu-hashtag">
+             <div class="value-menu-hashtag">
+              #Coronavirus
+             </div>
+            </span>
+            <li>
+             <a class="hl-link" href="https://www.cnews.fr/election-presidentielle">
+              <img alt="" class="img-menuburger" data-echo="https://static.cnews.fr/sites/default/files/styles/image_295_165/public/000_par1190192-taille1200_61d95212869e0_0.jpg?itok=q6GoPG7U" data-icon="" height="165" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Les candidats ont jusqu'au 4 mars pour obtenir les signatures. [Mychele Daniau/AFP]" width="295"/>
+              <noscript>
+               <img alt="" class="img-menuburger" height="165" src="https://static.cnews.fr/sites/default/files/styles/image_295_165/public/000_par1190192-taille1200_61d95212869e0_0.jpg?itok=q6GoPG7U" title="Les candidats ont jusqu'au 4 mars pour obtenir les signatures. [Mychele Daniau/AFP]" width="295"/>
+              </noscript>
+              <span class="menu-hashtag">
+               <div class="value-menu-hashtag">
+                #Présidentielle 2022
+               </div>
+              </span>
+             </a>
+            </li>
+            <li>
+             <a class="hl-link" href="https://www.cnews.fr/football">
+              <img alt="" class="img-menuburger" data-echo="https://static.cnews.fr/sites/default/files/styles/image_295_165/public/000_p61wq-taille1200_61d9ca31226af.jpg?itok=Lz_O45sd" data-icon="" height="165" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="La joueuse parisienne retrouve pour la première fois la compétition depuis l'affaire.
+(Javier SORIANO / AFP)" width="295"/>
+              <noscript>
+               <img alt="" class="img-menuburger" height="165" src="https://static.cnews.fr/sites/default/files/styles/image_295_165/public/000_p61wq-taille1200_61d9ca31226af.jpg?itok=Lz_O45sd" title="La joueuse parisienne retrouve pour la première fois la compétition depuis l'affaire.
+(Javier SORIANO / AFP)" width="295"/>
+              </noscript>
+              <span class="menu-hashtag">
+               <div class="value-menu-hashtag">
+                #Football
+               </div>
+              </span>
+             </a>
+            </li>
+            <li>
+             <a class="hl-link" href="https://www.cnews.fr/securite">
+              <img alt="" class="img-menuburger" data-echo="https://static.cnews.fr/sites/default/files/styles/image_295_165/public/000_9ud92d-taille1200_61d98aa76c9d9.jpg?itok=LgKbKNmy" data-icon="" height="165" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Le flou persiste autour des mercenaires Wagner. [Thomas Coex / AFP]" width="295"/>
+              <noscript>
+               <img alt="" class="img-menuburger" height="165" src="https://static.cnews.fr/sites/default/files/styles/image_295_165/public/000_9ud92d-taille1200_61d98aa76c9d9.jpg?itok=LgKbKNmy" title="Le flou persiste autour des mercenaires Wagner. [Thomas Coex / AFP]" width="295"/>
+              </noscript>
+              <span class="menu-hashtag">
+               <div class="value-menu-hashtag">
+                #Sécurité
+               </div>
+              </span>
+             </a>
+            </li>
+            <nav class="block block-menu" id="block-menu-menu-categories" role="navigation">
+             <ul>
+              <li>
+               <a href="/france">
+                France
+               </a>
+              </li>
+              <li>
+               <a href="/monde">
+                Monde
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cnews.fr/grand-paris">
+                Grand Paris
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cnews.fr/culture">
+                Culture
+               </a>
+              </li>
+              <li>
+               <a href="/divertissement">
+                Divertissement
+               </a>
+              </li>
+              <li>
+               <a href="/people">
+                People
+               </a>
+              </li>
+              <li>
+               <a href="/vie-numerique">
+                Vie numérique
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cnews.fr/sport">
+                Sport
+               </a>
+              </li>
+              <li>
+               <a href="/conso">
+                Conso
+               </a>
+              </li>
+              <li>
+               <a href="https://www.cnews.fr/food">
+                Food
+               </a>
+              </li>
+              <li>
+               <a href="/replay">
+                Vidéos
+               </a>
+              </li>
+              <li>
+               <a href="/beaute">
+                Beauté
+               </a>
+              </li>
+              <li>
+               <a href="/environnement">
+                Environnement
+               </a>
+              </li>
+              <li>
+               <a href="/faits-divers">
+                Faits divers
+               </a>
+              </li>
+              <li>
+               <a href="/insolite">
+                Insolite
+               </a>
+              </li>
+              <li>
+               <a href="/jeux-video">
+                Jeux vidéo
+               </a>
+              </li>
+              <li>
+               <a href="/nutrition">
+                Nutrition
+               </a>
+              </li>
+              <li>
+               <a href="/science">
+                Science
+               </a>
+              </li>
+              <li>
+               <a href="/le-corner-partenaires">
+                Le corner partenaires
+               </a>
+              </li>
+             </ul>
+            </nav>
+            <nav class="block block-menu" id="block-menu-menu-chroniqueurs" role="navigation">
+             <ul>
+              <li>
+               <a href="/la-semaine-de-philippe-labro">
+                <img alt="" class="img-menuburger chro-img" data-echo="https://static.cnews.fr/sites/default/files/styles/image_60_70/public/philippe-labro.png?itok=hfediDT6" data-icon="" height="70" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="" width="60"/>
+                <noscript>
+                 <img alt="" class="img-menuburger chro-img" height="70" src="https://static.cnews.fr/sites/default/files/styles/image_60_70/public/philippe-labro.png?itok=hfediDT6" title="" width="60"/>
+                </noscript>
+                <span class="menu-hashtag">
+                 La semaine de
+                 <br/>
+                 <span>
+                  Philippe Labro
+                 </span>
+                </span>
+               </a>
+              </li>
+             </ul>
+            </nav>
+            <nav class="block block-menu" id="block-menu-menu-services" role="navigation">
+             <ul>
+              <li>
+               <a class="meteo" href="/meteo">
+                Météo
+               </a>
+              </li>
+              <li>
+               <a class="horoscope" href="/horoscope">
+                Horoscope
+               </a>
+              </li>
+              <li>
+               <a class="fete" href="/jeux/tous-les-jeux">
+                Jeux
+               </a>
+              </li>
+              <li>
+               <a class="loto" href="/loto">
+                Loto
+               </a>
+              </li>
+              <li>
+               <a class="prog-tv" href="/programme-tv-tnt">
+                Programme TV TNT
+               </a>
+              </li>
+             </ul>
+            </nav>
+            <div class="block block-dm-pdf" id="block-dm-pdf-dm-pdf-block-paris">
+             <div class="block-content">
+              <div class="pdf-cover">
+               <a class="outbound_pdf_NEP" href="https://www.acpm-suivivn.com/track?link=415&amp;n=20211129&amp;cible=https%3A%2F%2Frss.cnews.fr%2Fpdf%2FNEP%2F20211129" target="_blank">
+                <img alt="" class="menuburger-pdf" data-echo="https://www.cnews.fr/sites/default/files/styles/image_190_247/public/editions-pdf/20211129?itok=DHRjn_kR" data-icon="" height="247" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" width="190"/>
+                <noscript>
+                 <img alt="" class="menuburger-pdf" height="247" src="/sites/default/files/styles/image_190_247/public/editions-pdf/20211129?itok=DHRjn_kR" width="190"/>
+                </noscript>
+               </a>
+               <div class="pdf-cover-hover">
+                <a class="outbound_pdf_NEP" href="https://www.acpm-suivivn.com/track?link=415&amp;n=20211129&amp;cible=https%3A%2F%2Frss.cnews.fr%2Fpdf%2FNEP%2F20211129" target="_blank">
+                 Télécharger
+                </a>
+                <a class="outbound_pdf_NEP" href="https://www.acpm-suivivn.com/track?link=415&amp;n=20211129&amp;cible=https%3A%2F%2Fkiosque.cnews.fr%2Fplayer%3Fq%3DNEP%26d%3D2021-11-29%26c%3DCNEWS" target="_blank">
+                 Feuilleter
+                </a>
+                <a class="outbound_pdf_NEP" href="/editions-pdf" target="_blank">
+                 Toutes nos éditions
+                </a>
+               </div>
+              </div>
+             </div>
+            </div>
+           </img>
+          </a>
+         </li>
+        </ul>
+       </nav>
+      </noscript>
+     </div>
+    </div>
+   </div>
+   <div id="home-dm">
+    <div id="wrapper-contenttop">
+     <div id="wrapper-front">
+      <div class="page">
+       <div id="main-content" role="main">
+        <div class="dm-block dm-block-bloc_1_news">
+         <a href="/france/2022-01-09/presidentielle-2022-je-suis-une-des-rares-avec-valerie-pecresse-avoir-les-500">
+          <div class="dm-blocks-item dm-blocks-news-hero dm_article-item associated-video">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_640_360/public/capture_decran_2022-01-09_a_10.23.26_61daa9a04e48e.png?itok=GG8QxGWM" data-icon="" height="360" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" width="640"/>
+            <noscript>
+             <img alt="" height="360" src="https://static.cnews.fr/sites/default/files/styles/image_640_360/public/capture_decran_2022-01-09_a_10.23.26_61daa9a04e48e.png?itok=GG8QxGWM" width="640"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Politique
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <h2 class="dm-news-title">
+             Présidentielle 2022 : «Je suis une des rares avec Valérie Pécresse à avoir les 500 parrainages» affirme Anne Hidalgo
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_3_news">
+         <a class="wrapper-news-tiers" href="/france/2022-01-09/meteo-cinq-departements-places-en-vigilance-orange-pluie-inondation-et-crues">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/capture_decran_2022-01-09_a_07.53.35_61da86c24481b.png?itok=ZsKjAuiS" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Un épisode pluvio-neigeux est en cours sur les départements pyrénéens, d'activité faible à modérée dans un premier temps, détaille Météo France.[VALERY HACHE / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/capture_decran_2022-01-09_a_07.53.35_61da86c24481b.png?itok=ZsKjAuiS" title="Un épisode pluvio-neigeux est en cours sur les départements pyrénéens, d'activité faible à modérée dans un premier temps, détaille Météo France.[VALERY HACHE / AFP]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Météo France
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Météo France
+            </span>
+            <h2 class="dm-news-title">
+             Météo : cinq départements placés en vigilance orange «pluie-inondation» et «crues»
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/france/2022-01-09/meteo-9000-foyers-prives-delectricite-en-bretagne-1168767">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/lsjfer_61da86c78ce62_0.jpg?itok=wbFnKu-m" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="9.000 foyers ont été privés d'électricité en Bretagne à cause des rafales de vent, selon Enedis. [Illustration / Jean-Pierre Clatot / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/lsjfer_61da86c78ce62_0.jpg?itok=wbFnKu-m" title="9.000 foyers ont été privés d'électricité en Bretagne à cause des rafales de vent, selon Enedis. [Illustration / Jean-Pierre Clatot / AFP]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Intempéries
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Intempéries
+            </span>
+            <h2 class="dm-news-title">
+             Météo : 9.000 foyers privés d'électricité en Bretagne
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/monde/2022-01-09/direct-coronavirus-rebond-en-france-de-la-mobilisation-anti-pass-avec-plus-de">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/capture_decran_2022-01-09_a_07.37.03_61da82a42fd65.png?itok=TqS57vCX" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="[Christophe ARCHAMBAULT / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/capture_decran_2022-01-09_a_07.37.03_61da82a42fd65.png?itok=TqS57vCX" title="[Christophe ARCHAMBAULT / AFP]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             pandémie
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             pandémie
+            </span>
+            <h2 class="dm-news-title">
+             DIRECT - Coronavirus : rebond en France de la mobilisation anti-pass avec plus de 100.000 manifestants
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_tag">
+         <div class="tag-header">
+          <span class="tag-title">
+           <a href="/coronavirus">
+            Coronavirus
+           </a>
+          </span>
+         </div>
+         <a href="/france/2022-01-08/coronavirus-en-france-le-bilan-de-ce-samedi-8-janvier-1168716">
+          <div class="dm-blocks-item dm-blocks-tag-tiers dm_article-item">
+           <div class="dm-tag-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9vm6vr_61d9f626db4f2.jpg?itok=6Qr-h2_H" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="[NICOLAS TUCAT / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9vm6vr_61d9f626db4f2.jpg?itok=6Qr-h2_H" title="[NICOLAS TUCAT / AFP]" width="200"/>
+            </noscript>
+           </div>
+           <div class="dm-tag-info">
+            <span class="dm-tag-tag">
+             épidémie
+            </span>
+            <h2 class="dm-tag-title">
+             Coronavirus en France : le bilan de ce samedi 8 janvier
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a href="/videos/france/2022-01-08/temoignage-elle-refuse-de-se-faire-vacciner-contre-le-covid-19-1168617">
+          <div class="dm-blocks-item dm-blocks-tag-tiers dm_video-item associated-video">
+           <div class="dm-tag-image">
+            <img alt="Témoignage : elle refuse de se faire vacciner contre la Covid-19" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/Video/x86ycak_61d99785af256.jpg?itok=8Ok02vXV" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Témoignage : elle refuse de se faire vacciner contre la Covid-19" width="200"/>
+            <noscript>
+             <img alt="Témoignage : elle refuse de se faire vacciner contre la Covid-19" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/Video/x86ycak_61d99785af256.jpg?itok=8Ok02vXV" title="Témoignage : elle refuse de se faire vacciner contre la Covid-19" width="200"/>
+            </noscript>
+           </div>
+           <div class="dm-tag-info">
+            <span class="dm-tag-tag">
+             Santé
+            </span>
+            <h2 class="dm-tag-title">
+             Témoignage : elle refuse de se faire vacciner contre le Covid-19
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a href="/france/2022-01-08/variant-omicron-la-sncf-va-supprimer-10-des-tgv-et-20-des-intercites-la-semaine">
+          <div class="dm-blocks-item dm-blocks-tag-tiers dm_article-item">
+           <div class="dm-tag-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9tc8mp-taille1200_61d941b4ce408.jpg?itok=M0uCUaE8" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="La SNCF, dont les voyageurs étaient largement revenus pendant les vacances de Noël, a déjà réduit la cadence plusieurs fois depuis le début de la crise sanitaire.
+
+[Philippe LOPEZ / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9tc8mp-taille1200_61d941b4ce408.jpg?itok=M0uCUaE8" title="La SNCF, dont les voyageurs étaient largement revenus pendant les vacances de Noël, a déjà réduit la cadence plusieurs fois depuis le début de la crise sanitaire.
+
+[Philippe LOPEZ / AFP]" width="200"/>
+            </noscript>
+           </div>
+           <div class="dm-tag-info">
+            <span class="dm-tag-tag">
+             Coronavirus
+            </span>
+            <h2 class="dm-tag-title">
+             Variant Omicron : la SNCF va supprimer 10% des TGV et 20% des Intercités la semaine prochaine
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_1_news">
+         <a href="/france/2022-01-09/papouasie-nouvelle-guinee-un-seisme-de-magnitude-59-frappe-la-region-de-nouvelle">
+          <div class="dm-blocks-item dm-blocks-news-hero dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_640_360/public/capture_decran_2022-01-09_a_07.08.18_61da7be4a3070.png?itok=2YeBNUcb" data-icon="" height="360" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="En juillet 2020, un séisme de magnitude 6,9 a semé la terreur dans la capitale Port Moresby.[[AFP - Illustration]]" width="640"/>
+            <noscript>
+             <img alt="" height="360" src="https://static.cnews.fr/sites/default/files/styles/image_640_360/public/capture_decran_2022-01-09_a_07.08.18_61da7be4a3070.png?itok=2YeBNUcb" title="En juillet 2020, un séisme de magnitude 6,9 a semé la terreur dans la capitale Port Moresby.[[AFP - Illustration]]" width="640"/>
+            </noscript>
+            <span class="dm-news-tag">
+             International
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <h2 class="dm-news-title">
+             Papouasie-Nouvelle-Guinée : un séisme de magnitude 5,9 frappe la région de Nouvelle-Bretagne
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_3_news">
+         <a class="wrapper-news-tiers" href="/france/2022-01-08/correze-un-retraite-depose-une-plainte-symbolique-lencontre-demmanuel-macron">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9ul4rl_61d9e804245d9.jpg?itok=NWjxzpXq" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="L’homme qui fait partie des non-vaccinés contre le Covid-19, s’est senti «choqué et blessé», par l’entretien d’Emmanuel Macron.[Attila KISBENEDEK / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9ul4rl_61d9e804245d9.jpg?itok=NWjxzpXq" title="L’homme qui fait partie des non-vaccinés contre le Covid-19, s’est senti «choqué et blessé», par l’entretien d’Emmanuel Macron.[Attila KISBENEDEK / AFP]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Justice
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Justice
+            </span>
+            <h2 class="dm-news-title">
+             Corrèze : un retraité dépose une plainte «symbolique» à l’encontre d’Emmanuel Macron
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/france/2022-01-08/aubervilliers-une-mere-et-sa-fille-de-2-ans-tuees-larme-blanche-le-pere-place-en">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item associated-video">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/capture_decran_2022-01-08_a_09.37.17-taille1200_61d94d56830d3.jpg?itok=5qyhQctm" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="L'enquête ouverte pour homicide sur conjoint et ascendant et pour tentative d'homicide a été confiée au service de police judiciaire du département.
+
+[AFP - illustration]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/capture_decran_2022-01-08_a_09.37.17-taille1200_61d94d56830d3.jpg?itok=5qyhQctm" title="L'enquête ouverte pour homicide sur conjoint et ascendant et pour tentative d'homicide a été confiée au service de police judiciaire du département.
+
+[AFP - illustration]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             féminicide
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             féminicide
+            </span>
+            <h2 class="dm-news-title">
+             Aubervilliers : une mère et sa fille de 2 ans tuées à l'arme blanche, le père placé en garde à vue
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/faits-divers/2022-01-09/toulouse-un-detenu-retrouve-mort-dans-sa-cellule-1168782">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/capture_decran_2022-01-09_a_09.03.35_61da96fa11b03.png?itok=XjzcChWK" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="L'audience en comparution immédiate aura tout de même lieu le 11 janvier à Toulouse.[Fred DUFOUR / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/capture_decran_2022-01-09_a_09.03.35_61da96fa11b03.png?itok=XjzcChWK" title="L'audience en comparution immédiate aura tout de même lieu le 11 janvier à Toulouse.[Fred DUFOUR / AFP]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Haute-Garonne
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Haute-Garonne
+            </span>
+            <h2 class="dm-news-title">
+             Toulouse : un détenu retrouvé mort dans sa cellule
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_3_news">
+         <a class="wrapper-news-tiers" href="/sport/2022-01-08/novak-djokovic-ces-preuves-qui-remettent-en-cause-ses-arguments-1168599">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9vq32r-taille1200_61d9842a42f5a.jpg?itok=L8UENgnZ" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Le lendemain de son test positif, le joueur assistait à un événement sans masque. 
+(Greg WOOD / AFP)" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9vq32r-taille1200_61d9842a42f5a.jpg?itok=L8UENgnZ" title="Le lendemain de son test positif, le joueur assistait à un événement sans masque. 
+(Greg WOOD / AFP)" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Tennis
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Tennis
+            </span>
+            <h2 class="dm-news-title">
+             Novak Djokovic : Ces preuves qui remettent en cause ses arguments
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/sport/2022-01-08/ski-alpin-la-belle-journee-des-favoris-francais-1168647">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9vt49x-taille1200_61d9b77b47f2c.jpg?itok=vBpgANqb" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Tessa Worley affiche une forme olympique. 
+(Jure MAKOVEC / AFP)" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9vt49x-taille1200_61d9b77b47f2c.jpg?itok=vBpgANqb" title="Tessa Worley affiche une forme olympique. 
+(Jure MAKOVEC / AFP)" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Sports d'hiver
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Sports d'hiver
+            </span>
+            <h2 class="dm-news-title">
+             Ski alpin : La belle journée des favoris français
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/faits-divers/2022-01-09/le-champion-du-monde-junior-de-tir-meurt-apres-setre-tire-accidentellement">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/hiuhh_61da94d0aa4b5_0.jpg?itok=nEvOGKBG" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Cristian Ghilli a été hospitalisé mais a succombé à ses blessures. [Illustration / Andreas Solaro / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/hiuhh_61da94d0aa4b5_0.jpg?itok=nEvOGKBG" title="Cristian Ghilli a été hospitalisé mais a succombé à ses blessures. [Illustration / Andreas Solaro / AFP]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Faits divers
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Faits divers
+            </span>
+            <h2 class="dm-news-title">
+             Le champion du monde junior de tir meurt après s'être tiré accidentellement une balle dans le ventre
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_tag">
+         <div class="tag-header">
+          <span class="tag-title">
+           <a href="/politique">
+            Politique
+           </a>
+          </span>
+         </div>
+         <a href="/videos/france/2022-01-08/election-presidentielle-les-candidats-sur-le-terrain-ce-samedi-1168671">
+          <div class="dm-blocks-item dm-blocks-tag-tiers dm_video-item associated-video">
+           <div class="dm-tag-image">
+            <img alt="4 candidats aux élections présidentielles en campagne : affrontements à distance" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/Video/x86ygcd_61d9cb88cb4b1.jpg?itok=7A714H89" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="4 candidats aux élections présidentielles en campagne : affrontements à distance" width="200"/>
+            <noscript>
+             <img alt="4 candidats aux élections présidentielles en campagne : affrontements à distance" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/Video/x86ygcd_61d9cb88cb4b1.jpg?itok=7A714H89" title="4 candidats aux élections présidentielles en campagne : affrontements à distance" width="200"/>
+            </noscript>
+           </div>
+           <div class="dm-tag-info">
+            <span class="dm-tag-tag">
+             Politique
+            </span>
+            <h2 class="dm-tag-title">
+             Élection présidentielle : les candidats sur le terrain ce samedi
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a href="/france/2022-01-08/carte-didentite-lacademie-francaise-vent-debout-contre-la-traduction-en-anglais">
+          <div class="dm-blocks-item dm-blocks-tag-tiers dm_article-item">
+           <div class="dm-tag-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9649dq-taille1200_61d9d52b8d221_0.jpg?itok=3Un23lZZ" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="[© François LO PRESTI / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9649dq-taille1200_61d9d52b8d221_0.jpg?itok=3Un23lZZ" title="[© François LO PRESTI / AFP]" width="200"/>
+            </noscript>
+           </div>
+           <div class="dm-tag-info">
+            <span class="dm-tag-tag">
+             Politique
+            </span>
+            <h2 class="dm-tag-title">
+             Carte d'identité : l'Académie française vent debout contre la traduction en anglais
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a href="/france/2022-01-08/presidentielle-2022-la-course-aux-parrainages-saccelere-1168545">
+          <div class="dm-blocks-item dm-blocks-tag-tiers dm_article-item">
+           <div class="dm-tag-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_par1190192-taille1200_61d95212869e0_0.jpg?itok=kspHek9B" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Les candidats ont jusqu'au 4 mars pour obtenir les signatures. [Mychele Daniau/AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_par1190192-taille1200_61d95212869e0_0.jpg?itok=kspHek9B" title="Les candidats ont jusqu'au 4 mars pour obtenir les signatures. [Mychele Daniau/AFP]" width="200"/>
+            </noscript>
+           </div>
+           <div class="dm-tag-info">
+            <span class="dm-tag-tag">
+             Politique
+            </span>
+            <h2 class="dm-tag-title">
+             Présidentielle 2022 : la course aux parrainages s'accélère
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_autopromo">
+         <a class="wrapper-news-tiers" href="videos/conso/2022-01-06/mon-lit-cabane-donnez-envie-vos-enfants-de-faire-de-beaux-reves-1168269" target="_blank">
+          <div class="slot-partenaire dm-blocks-news-tiers">
+           <h3 class="titre-partenaire">
+            L'Entreprise de la semaine
+           </h3>
+           <img alt="" class="img-partenaire" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/Video/openmedias_mlc_61d802df05d13.jpg?itok=Msl3wY8R"/>
+           <p class="description-partenaire">
+            Mon lit cabane : donnez envie à vos enfants de faire de beaux rêves
+           </p>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="https://www.jeanmarcmorandini.com/" target="_blank">
+          <div class="slot-partenaire dm-blocks-news-tiers">
+           <h3 class="titre-partenaire">
+            jeanmarcmorandini.com
+           </h3>
+           <img alt="" class="img-partenaire" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/2019_redaction/autopromo/jmm-hp-autopromo_5e393f9075946_5f5f72a190003.png?itok=tox9pvTs"/>
+           <p class="description-partenaire">
+            Toute l'actu des médias... et bien plus encore
+           </p>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="conso/2021-12-20/degustation-et-harmonie-une-autre-maniere-de-decouvrir-le-vin-1162648" target="_blank">
+          <div class="slot-partenaire dm-blocks-news-tiers">
+           <h3 class="titre-partenaire">
+            À la une sur IE WEB TV
+           </h3>
+           <img alt="" class="img-partenaire" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/deghar_61c098fb61165.jpg?itok=QzLaNRwu"/>
+           <p class="description-partenaire">
+            Dégustation et Harmonie : une autre manière de découvrir le vin
+           </p>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_1_news">
+         <a href="/monde/2022-01-08/les-talibans-interdisent-les-bains-publics-aux-afghanes-1168614">
+          <div class="dm-blocks-item dm-blocks-news-hero dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_640_360/public/000_app2001050443314_2-taille1200_61d9955defc43.jpg?itok=BH2mC3D4" data-icon="" height="360" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Certaines femmes afghanes n'ont plus accès aux bains publiques. [Thomas Coex / AFP]" width="640"/>
+            <noscript>
+             <img alt="" height="360" src="https://static.cnews.fr/sites/default/files/styles/image_640_360/public/000_app2001050443314_2-taille1200_61d9955defc43.jpg?itok=BH2mC3D4" title="Certaines femmes afghanes n'ont plus accès aux bains publiques. [Thomas Coex / AFP]" width="640"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Droit des femmes
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <h2 class="dm-news-title">
+             Les talibans interdisent les bains publics aux Afghanes
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_3_news">
+         <a class="wrapper-news-tiers" href="/monde/2022-01-08/etats-unis-les-trois-hommes-accuses-davoir-tue-ahmaud-arbery-condamnes-la-prison">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9vq8c7-taille1200_61d93ab9b4543.jpg?itok=3wyodN4m" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="La famille d'Ahmaud Arbery, qui avait réclamé une «punition maximale» pour les trois hommes, a salué ces lourdes peines. [Sean Rayford / GETTY IMAGES NORTH AMERICA / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9vq8c7-taille1200_61d93ab9b4543.jpg?itok=3wyodN4m" title="La famille d'Ahmaud Arbery, qui avait réclamé une «punition maximale» pour les trois hommes, a salué ces lourdes peines. [Sean Rayford / GETTY IMAGES NORTH AMERICA / AFP]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Justice
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Justice
+            </span>
+            <h2 class="dm-news-title">
+             Etats-Unis : les trois hommes accusés d'avoir tué Ahmaud Arbery condamnés à la prison à vie
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/france/2022-01-08/mali-la-famille-dolivier-dubois-le-seul-otage-francais-dans-le-monde-denonce-un">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_99c4ee-taille1200_61d95c4f62cbd.jpg?itok=rLjs2_zM" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Depuis la libération en octobre 2020 de Sophie Pétronin, une septuagénaire enlevée en décembre 2016 à Gao également, Olivier Dubois est le seul otage français à l'étranger.[AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_99c4ee-taille1200_61d95c4f62cbd.jpg?itok=rLjs2_zM" title="Depuis la libération en octobre 2020 de Sophie Pétronin, une septuagénaire enlevée en décembre 2016 à Gao également, Olivier Dubois est le seul otage français à l'étranger.[AFP]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             enlèvement
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             enlèvement
+            </span>
+            <h2 class="dm-news-title">
+             Mali : la famille d'Olivier Dubois, le seul otage français dans le monde, dénonce un silence «insupportable»
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/sport/2022-01-08/ligue-1-lionel-messi-declare-forfait-pour-le-match-lyon-psg-1168581">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9vt2yl-taille1200_61d97fcba744b.jpg?itok=Hjg1nO5l" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Le PSG, leader du Championnat avec 10 points d'avance sur Marseille, aborde sa rencontre dans le Rhône toujours sans Neymar, blessé à la cheville gauche.[FRANCK FIFE / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9vt2yl-taille1200_61d97fcba744b.jpg?itok=Hjg1nO5l" title="Le PSG, leader du Championnat avec 10 points d'avance sur Marseille, aborde sa rencontre dans le Rhône toujours sans Neymar, blessé à la cheville gauche.[FRANCK FIFE / AFP]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Football
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Football
+            </span>
+            <h2 class="dm-news-title">
+             Ligue 1 : Lionel Messi déclare forfait pour le match Lyon-PSG
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_tag">
+         <div class="tag-header">
+          <span class="tag-title">
+           <a href="/football">
+            Football
+           </a>
+          </span>
+         </div>
+         <a href="/sport/2022-01-08/psg-aminata-diallo-reintegre-le-groupe-deux-mois-apres-laffaire-hamraoui-1168668">
+          <div class="dm-blocks-item dm-blocks-tag-tiers dm_article-item">
+           <div class="dm-tag-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_p61wq-taille1200_61d9ca31226af.jpg?itok=CvDlgQqw" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="La joueuse parisienne retrouve pour la première fois la compétition depuis l'affaire.
+(Javier SORIANO / AFP)" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_p61wq-taille1200_61d9ca31226af.jpg?itok=CvDlgQqw" title="La joueuse parisienne retrouve pour la première fois la compétition depuis l'affaire.
+(Javier SORIANO / AFP)" width="200"/>
+            </noscript>
+           </div>
+           <div class="dm-tag-info">
+            <span class="dm-tag-tag">
+             Football
+            </span>
+            <h2 class="dm-tag-title">
+             PSG : Aminata Diallo réintègre le groupe deux mois après l’affaire Hamraoui
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a href="/sport/2022-01-07/lolympique-de-marseille-brise-la-malediction-et-simpose-sur-le-terrain-des">
+          <div class="dm-blocks-item dm-blocks-tag-tiers dm_article-item">
+           <div class="dm-tag-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9vr6kb-taille1200_61d8bc926a26f.jpg?itok=8dbLpFPn" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="L'OM s'est provisoirement emparé de la deuxième place du classement. [ROMAIN PERROCHEAU / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9vr6kb-taille1200_61d8bc926a26f.jpg?itok=8dbLpFPn" title="L'OM s'est provisoirement emparé de la deuxième place du classement. [ROMAIN PERROCHEAU / AFP]" width="200"/>
+            </noscript>
+           </div>
+           <div class="dm-tag-info">
+            <span class="dm-tag-tag">
+             Football
+            </span>
+            <h2 class="dm-tag-title">
+             L'Olympique de Marseille brise la malédiction et s'impose sur le terrain des Girondins de Bordeaux
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a href="/monde/2022-01-07/benjamin-mendy-le-defenseur-francais-accuse-de-viols-ete-libere-sous-caution">
+          <div class="dm-blocks-item dm-blocks-tag-tiers dm_article-item">
+           <div class="dm-tag-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_8w379b-taille1200_61d8503f53a26.jpg?itok=fvtkalAx" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="[MICHAEL REGAN / POOL / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_8w379b-taille1200_61d8503f53a26.jpg?itok=fvtkalAx" title="[MICHAEL REGAN / POOL / AFP]" width="200"/>
+            </noscript>
+           </div>
+           <div class="dm-tag-info">
+            <span class="dm-tag-tag">
+             Football
+            </span>
+            <h2 class="dm-tag-title">
+             Benjamin Mendy : le défenseur français, accusé de viols, a été libéré sous caution
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_1_news">
+         <a href="/sport/2022-01-08/ousmane-kante-defenseur-de-la-guinee-disputer-la-can-2022-cest-une-fierte-immense">
+          <div class="dm-blocks-item dm-blocks-news-hero dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_640_360/public/ousmane_kante_61d722ae58c03.jpg?itok=zISd6H-y" data-icon="" height="360" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Ousmane Kanté reste sur une belle première partie de saison avec le Paris FC. [Icon Sport]" width="640"/>
+            <noscript>
+             <img alt="" height="360" src="https://static.cnews.fr/sites/default/files/styles/image_640_360/public/ousmane_kante_61d722ae58c03.jpg?itok=zISd6H-y" title="Ousmane Kanté reste sur une belle première partie de saison avec le Paris FC. [Icon Sport]" width="640"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Football
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <h2 class="dm-news-title">
+             Ousmane Kanté, défenseur de la Guinée : «Disputer la CAN 2022, c’est une fierté immense»
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_3_news">
+         <a class="wrapper-news-tiers" href="/sport/2022-01-08/can-2022-pourquoi-la-coupe-dafrique-se-joue-t-elle-en-hiver-1167978">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/icon_44129306-taille1200_61d6d84f68ff8_0.jpg?itok=7CQ7ey6q" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="La CAN 2022 se déroule au Cameroun. [PA Images / Icon Sport]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/icon_44129306-taille1200_61d6d84f68ff8_0.jpg?itok=7CQ7ey6q" title="La CAN 2022 se déroule au Cameroun. [PA Images / Icon Sport]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Football
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Football
+            </span>
+            <h2 class="dm-news-title">
+             CAN 2022 : Pourquoi la Coupe d’Afrique se joue-t-elle en hiver ?
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/france/2022-01-08/les-mutuelles-augmentent-leurs-tarifs-de-34-en-2022-1168530">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_par1809748-taille1200_61d947bde7175_0.jpg?itok=7iILgzud" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Les cotisations des mutuelles augmentent en 2022.[Jean Ayissi/AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_par1809748-taille1200_61d947bde7175_0.jpg?itok=7iILgzud" title="Les cotisations des mutuelles augmentent en 2022.[Jean Ayissi/AFP]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Santé
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Santé
+            </span>
+            <h2 class="dm-news-title">
+             Les mutuelles augmentent leurs tarifs de 3,4% en 2022
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/france/2022-01-08/en-deplacement-dans-laude-marine-le-pen-rend-hommage-au-colonel-beltrame-1168458">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9vq6ec-taille1200_61d8975f7db80.jpg?itok=PYL66H-v" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Marine Le Pen pourra compter sur Robert Ménard, le maire de Béziers, qui a annoncé qu’il lui accorderait sa signature dans la course aux parrainages pour la prochaine présidentielle.[Pascal GUYOT / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9vq6ec-taille1200_61d8975f7db80.jpg?itok=PYL66H-v" title="Marine Le Pen pourra compter sur Robert Ménard, le maire de Béziers, qui a annoncé qu’il lui accorderait sa signature dans la course aux parrainages pour la prochaine présidentielle.[Pascal GUYOT / AFP]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             présidentielle 2022
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             présidentielle 2022
+            </span>
+            <h2 class="dm-news-title">
+             En déplacement dans l'Aude, Marine Le Pen rend hommage au colonel Beltrame
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_tag">
+         <div class="tag-header">
+          <span class="tag-title">
+           <a href="/faits-divers-7">
+            Faits divers
+           </a>
+          </span>
+         </div>
+         <a href="/france/2022-01-08/cold-cases-le-pere-destelle-mouzin-disparue-en-2003-reclame-un-pole-de-juges">
+          <div class="dm-blocks-item dm-blocks-tag-tiers dm_article-item">
+           <div class="dm-tag-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9vt6jj_61d9de163ee2b.jpg?itok=BBhQCBdi" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Une cinquantaine de personnes ont bravé la pluie hivernale pour une marche silencieuse en hommage à Estelle Mouzin. [BERTRAND GUAY / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9vt6jj_61d9de163ee2b.jpg?itok=BBhQCBdi" title="Une cinquantaine de personnes ont bravé la pluie hivernale pour une marche silencieuse en hommage à Estelle Mouzin. [BERTRAND GUAY / AFP]" width="200"/>
+            </noscript>
+           </div>
+           <div class="dm-tag-info">
+            <span class="dm-tag-tag">
+             Justice
+            </span>
+            <h2 class="dm-tag-title">
+             Cold cases : le père d'Estelle Mouzin disparue en 2003 réclame un pôle de juges spécialisés
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a href="/faits-divers/2022-01-07/frejus-il-se-presente-la-gendarmerie-avec-la-tete-et-le-penis-de-lhomme-quil">
+          <div class="dm-blocks-item dm-blocks-tag-tiers dm_article-item">
+           <div class="dm-tag-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9ul3hz-taille1200_61d8658e39eec.jpg?itok=otUboJpB" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Le suspect, déjà connu des services de police pour des infractions antérieures, a été interpellé et placé en garde à vue. [Sameer Al-DOUMY / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9ul3hz-taille1200_61d8658e39eec.jpg?itok=otUboJpB" title="Le suspect, déjà connu des services de police pour des infractions antérieures, a été interpellé et placé en garde à vue. [Sameer Al-DOUMY / AFP]" width="200"/>
+            </noscript>
+           </div>
+           <div class="dm-tag-info">
+            <span class="dm-tag-tag">
+             Faits divers
+            </span>
+            <h2 class="dm-tag-title">
+             Fréjus : il se présente à la gendarmerie avec la tête et le pénis de l'homme qu'il vient de tuer
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a href="/faits-divers/2022-01-07/affaire-jubillar-la-couette-de-delphine-ne-se-trouvait-pas-dans-la-machine">
+          <div class="dm-blocks-item dm-blocks-tag-tiers dm_article-item">
+           <div class="dm-tag-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/capture_decran_2022-01-07_a_14.04.23_61d83a88ed115.png?itok=agSEYozf" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Delphine Jubillar, une infirmière de 33 ans, mère de deux enfants est portée disparue dans la nuit du 15 au 16 décembre 2020.[ FRED SCHEIBER / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/capture_decran_2022-01-07_a_14.04.23_61d83a88ed115.png?itok=agSEYozf" title="Delphine Jubillar, une infirmière de 33 ans, mère de deux enfants est portée disparue dans la nuit du 15 au 16 décembre 2020.[ FRED SCHEIBER / AFP]" width="200"/>
+            </noscript>
+           </div>
+           <div class="dm-tag-info">
+            <span class="dm-tag-tag">
+             Faits divers
+            </span>
+            <h2 class="dm-tag-title">
+             Affaire Jubillar : la couette de Delphine ne se trouvait pas dans la machine à laver
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_1_news">
+         <a href="/insolite/2022-01-08/manche-une-bouteille-jetee-la-mer-trouvee-sur-une-plage-les-auteurs-du-message">
+          <div class="dm-blocks-item dm-blocks-news-hero dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_640_360/public/capture_decran_2022-01-08_a_16.31.39_61d9b0cd20328.png?itok=VxhDOA7v" data-icon="" height="360" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="La maman, Anaïs Rey, qui est à l’origine de cette surprenante découverte a souhaité retrouver les auteurs de ce message.[Capture d'écran Facebook Anaïs Rey]" width="640"/>
+            <noscript>
+             <img alt="" height="360" src="https://static.cnews.fr/sites/default/files/styles/image_640_360/public/capture_decran_2022-01-08_a_16.31.39_61d9b0cd20328.png?itok=VxhDOA7v" title="La maman, Anaïs Rey, qui est à l’origine de cette surprenante découverte a souhaité retrouver les auteurs de ce message.[Capture d'écran Facebook Anaïs Rey]" width="640"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Insolite
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <h2 class="dm-news-title">
+             Manche : Une bouteille jetée à la mer trouvée sur une plage, les auteurs du message retrouvés
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_3_news">
+         <a class="wrapper-news-tiers" href="/vie-numerique/2022-01-07/tousanticovid-est-lapplication-francaise-la-plus-telechargee-de-lhistoire">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/tousanticovid_est_lapplication_francaise_la_plus_telechargee_de_lhistoire_selon_cedric_o_61d80761d665b_0.jpg?itok=m7YgPjdm" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Plus de 1,5 million d'utilisateurs de l'application ont reçu une notification d'exposition au virus. [Pascal GUYOT / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/tousanticovid_est_lapplication_francaise_la_plus_telechargee_de_lhistoire_selon_cedric_o_61d80761d665b_0.jpg?itok=m7YgPjdm" title="Plus de 1,5 million d'utilisateurs de l'application ont reçu une notification d'exposition au virus. [Pascal GUYOT / AFP]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Coronavirus
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Coronavirus
+            </span>
+            <h2 class="dm-news-title">
+             TousAntiCovid est l'application française la plus téléchargée de l'histoire, selon Cédric O
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/monde/2022-01-08/perou-pres-de-100000-enfants-sont-devenus-orphelins-cause-du-covid-19-1168512">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_1sk6cp-taille1200_61d97d79b2835_0.jpg?itok=nV4GGn3g" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Près de 100.000 enfant sont devenus orphelins au Pérou à cause du Coronavirus.[© Ernesto BENAVIDES / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_1sk6cp-taille1200_61d97d79b2835_0.jpg?itok=nV4GGn3g" title="Près de 100.000 enfant sont devenus orphelins au Pérou à cause du Coronavirus.[© Ernesto BENAVIDES / AFP]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Santé
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Santé
+            </span>
+            <h2 class="dm-news-title">
+             Pérou : près de 100.000 enfants sont devenus orphelins à cause du Covid-19
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/monde/2022-01-08/mali-le-flou-persiste-autour-des-mercenaires-wagner-1168605">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9ud92d-taille1200_61d98aa76c9d9.jpg?itok=7m4cqJfq" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Le flou persiste autour des mercenaires Wagner. [Thomas Coex / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9ud92d-taille1200_61d98aa76c9d9.jpg?itok=7m4cqJfq" title="Le flou persiste autour des mercenaires Wagner. [Thomas Coex / AFP]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Sécurité
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Sécurité
+            </span>
+            <h2 class="dm-news-title">
+             Mali : le flou persiste autour des mercenaires Wagner
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_3_news">
+         <a class="wrapper-news-tiers" href="/culture/2022-01-07/deces-de-sidney-poitier-ses-5-plus-grands-roles-au-cinema-1168443">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/052909.jpg-r_1920_1080-f_jpg-q_x-xxyxx_61d8759841f0a.jpg?itok=5oswImpQ" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Sidney Poitier (c.) dans le film Uptown Saturday Night.[© DR]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/052909.jpg-r_1920_1080-f_jpg-q_x-xxyxx_61d8759841f0a.jpg?itok=5oswImpQ" title="Sidney Poitier (c.) dans le film Uptown Saturday Night.[© DR]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Disparition
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Disparition
+            </span>
+            <h2 class="dm-news-title">
+             Décès de Sidney Poitier : ses 5 plus grands rôles au cinéma
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/people/2022-01-07/lego-masters-un-gagnant-de-la-saison-1-condamne-pour-diffamation-sur-facebook">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9vn2z8_61d85995d2070.jpg?itok=L7ASR-QN" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Lors d’une audience le 6 décembre dernier, l’ancien vainqueur de «Lego Masters» a démenti les accusations, affirmant que son téléphone avait été volé.  [Chris DELMAS / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9vn2z8_61d85995d2070.jpg?itok=L7ASR-QN" title="Lors d’une audience le 6 décembre dernier, l’ancien vainqueur de «Lego Masters» a démenti les accusations, affirmant que son téléphone avait été volé.  [Chris DELMAS / AFP]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Seine-et-Marne
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Seine-et-Marne
+            </span>
+            <h2 class="dm-news-title">
+             Lego Masters : un gagnant de la saison 1 condamné pour diffamation sur Facebook
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/france/2022-01-07/rappel-massif-de-bouteilles-deau-cause-dun-gout-de-vinaigre-1168263">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/capture_decran_2022-01-07_a_09.06.41_61d8009d09b63.png?itok=k6oCGJTl" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Il est conseillé aux consommateurs de rapporter les produits en question aux points de vente ou de contacter le service consommateur. [Pixabay - illustration]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/capture_decran_2022-01-07_a_09.06.41_61d8009d09b63.png?itok=k6oCGJTl" title="Il est conseillé aux consommateurs de rapporter les produits en question aux points de vente ou de contacter le service consommateur. [Pixabay - illustration]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Conso
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Conso
+            </span>
+            <h2 class="dm-news-title">
+             Rappel massif de bouteilles d'eau à cause d'un goût de vinaigre
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_tag">
+         <div class="tag-header">
+          <span class="tag-title">
+           <a href="/actu-culture">
+            Culture
+           </a>
+          </span>
+         </div>
+         <a href="/culture/2022-01-08/400-ans-de-moliere-5-anecdotes-que-vous-ne-connaissez-peut-etre-pas-1167726">
+          <div class="dm-blocks-item dm-blocks-tag-tiers dm_article-item">
+           <div class="dm-tag-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_dv500577-taille1200_61d6f3316285d.jpg?itok=nBQLWKrm" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Le 15 janvier prochain sera célébré le 400e anniversaire de la naissance de Molière. [STEPHANE DE SAKUTIN / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_dv500577-taille1200_61d6f3316285d.jpg?itok=nBQLWKrm" title="Le 15 janvier prochain sera célébré le 400e anniversaire de la naissance de Molière. [STEPHANE DE SAKUTIN / AFP]" width="200"/>
+            </noscript>
+           </div>
+           <div class="dm-tag-info">
+            <span class="dm-tag-tag">
+             Molière
+            </span>
+            <h2 class="dm-tag-title">
+             400 ans de Molière : 5 anecdotes que vous ne connaissez (peut-être) pas
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a href="/culture/2022-01-07/mort-de-sidney-poitier-artistes-et-anonymes-lui-rendent-hommage-1168449">
+          <div class="dm-blocks-item dm-blocks-tag-tiers dm_article-item">
+           <div class="dm-tag-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9vq9h4_61d8826bb9e40_0.jpg?itok=xG_DpKVP" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Sidney Poitier est décédé à l'âge de 94 ans. [MIKE NELSON / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9vq9h4_61d8826bb9e40_0.jpg?itok=xG_DpKVP" title="Sidney Poitier est décédé à l'âge de 94 ans. [MIKE NELSON / AFP]" width="200"/>
+            </noscript>
+           </div>
+           <div class="dm-tag-info">
+            <span class="dm-tag-tag">
+             Cinéma
+            </span>
+            <h2 class="dm-tag-title">
+             Mort de Sidney Poitier : artistes et anonymes lui rendent hommage
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a href="/culture/2022-01-07/morbius-rumba-la-vie-les-studios-repoussent-la-sortie-de-plusieurs-films-1168275">
+          <div class="dm-blocks-item dm-blocks-tag-tiers dm_article-item">
+           <div class="dm-tag-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/3945418.jpg-r_1920_1080-f_jpg-q_x-xxyxx-taille1200_61d80679e2e83.jpg?itok=wZPel_W0" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Plusieurs sociétés de production ont revu leur planning de sorties au cinéma.[©DR]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/3945418.jpg-r_1920_1080-f_jpg-q_x-xxyxx-taille1200_61d80679e2e83.jpg?itok=wZPel_W0" title="Plusieurs sociétés de production ont revu leur planning de sorties au cinéma.[©DR]" width="200"/>
+            </noscript>
+           </div>
+           <div class="dm-tag-info">
+            <span class="dm-tag-tag">
+             Cinéma
+            </span>
+            <h2 class="dm-tag-title">
+             Morbius, Rumba la vie... Les studios repoussent la sortie de plusieurs films
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_1_news">
+         <a href="/france/2022-01-09/sports-dhiver-comment-bien-se-preparer-physiquement-pour-le-ski-1168362">
+          <div class="dm-blocks-item dm-blocks-news-hero dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_640_360/public/ski-810500_1920-taille1200_61d83617e2493.jpg?itok=HlCX0alj" data-icon="" height="360" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Quelques conseils et exercices simples, mais précieux, pour dévaler sereinement les pistes.[©melanieschamboeck0/Pixabay]" width="640"/>
+            <noscript>
+             <img alt="" height="360" src="https://static.cnews.fr/sites/default/files/styles/image_640_360/public/ski-810500_1920-taille1200_61d83617e2493.jpg?itok=HlCX0alj" title="Quelques conseils et exercices simples, mais précieux, pour dévaler sereinement les pistes.[©melanieschamboeck0/Pixabay]" width="640"/>
+            </noscript>
+            <span class="dm-news-tag">
+             activité physique
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <h2 class="dm-news-title">
+             Sports d'hiver : comment bien se préparer physiquement pour le ski ?
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_3_news">
+         <a class="wrapper-news-tiers" href="/france/2022-01-08/booba-twitter-suspend-brievement-le-compte-du-rappeur-1168683">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_jx8ro_61d9d6eb74979.jpg?itok=fuSWAygU" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="En janvier 2020, c’est la plateforme Instagram qui avait déjà banni Booba pour avoir enfreint les règles de la communauté.[GABRIEL BOUYS / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_jx8ro_61d9d6eb74979.jpg?itok=fuSWAygU" title="En janvier 2020, c’est la plateforme Instagram qui avait déjà banni Booba pour avoir enfreint les règles de la communauté.[GABRIEL BOUYS / AFP]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Réseaux sociaux
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Réseaux sociaux
+            </span>
+            <h2 class="dm-news-title">
+             Booba : Twitter suspend brièvement le compte du rappeur
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/culture/2022-01-08/un-ballet-vieux-de-100-ans-reprend-vie-orsay-entre-danse-et-cinema-1168626">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/relache2c2a9laurentphilippe_61d9afd94b6ee_0.jpg?itok=-9oYRx-u" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Pour la première fois de l'histoire, un spectacle mêlait danse et cinéma sur scène.[© L.Philippe]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/relache2c2a9laurentphilippe_61d9afd94b6ee_0.jpg?itok=-9oYRx-u" title="Pour la première fois de l'histoire, un spectacle mêlait danse et cinéma sur scène.[© L.Philippe]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             danse
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             danse
+            </span>
+            <h2 class="dm-news-title">
+             Un ballet vieux de 100 ans reprend vie à Orsay, entre danse et cinéma
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/sport/2022-01-09/biathlon-le-programme-complet-de-la-cinquieme-etape-oberhof-1166890">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="Oberhof accueille la 5e étape de la Coupe du monde de biathlon." data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/biathlon_coupe_du_monde_berhof_61d3142dc09b7_0.jpg?itok=8FZHEqmG" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Oberhof accueille la 5e étape de la Coupe du monde de biathlon. [Manzoni / Icon Sport]" width="200"/>
+            <noscript>
+             <img alt="Oberhof accueille la 5e étape de la Coupe du monde de biathlon." height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/biathlon_coupe_du_monde_berhof_61d3142dc09b7_0.jpg?itok=8FZHEqmG" title="Oberhof accueille la 5e étape de la Coupe du monde de biathlon. [Manzoni / Icon Sport]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Sports d'hiver
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Sports d'hiver
+            </span>
+            <h2 class="dm-news-title">
+             Biathlon : le programme complet de la cinquième étape à Oberhof
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_1_news">
+         <a href="/france/2022-01-08/arnaque-attention-ce-sms-de-la-cpam-qui-promet-642-euros-1168728">
+          <div class="dm-blocks-item dm-blocks-news-hero dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_640_360/public/000_pl8v3-taille1200_61d9fded22532.jpg?itok=dcgdYv12" data-icon="" height="360" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Ameli.fr, avait «mis en garde ses assurés sociaux» depuis le 21 septembre dernier.[PHILIPPE HUGUEN / AFP]" width="640"/>
+            <noscript>
+             <img alt="" height="360" src="https://static.cnews.fr/sites/default/files/styles/image_640_360/public/000_pl8v3-taille1200_61d9fded22532.jpg?itok=dcgdYv12" title="Ameli.fr, avait «mis en garde ses assurés sociaux» depuis le 21 septembre dernier.[PHILIPPE HUGUEN / AFP]" width="640"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Assurance maladie
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <h2 class="dm-news-title">
+             Arnaque : attention à ce SMS de la CPAM qui promet 642 euros
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_3_news">
+         <a class="wrapper-news-tiers" href="/culture/2022-01-07/les-cinq-expos-immanquables-de-la-rentree-1168059">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/capture_decran_2022-01-07_a_15.25.44_61d84d85383c9_0.png?itok=yBb8Wtmc" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="De nombreuses expositions inédites ouvrent leurs portes en ce début d'année.[© « Kandinsky, l’odyssée de l’abstrait », simulation : © Culturespaces / Cutback]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/capture_decran_2022-01-07_a_15.25.44_61d84d85383c9_0.png?itok=yBb8Wtmc" title="De nombreuses expositions inédites ouvrent leurs portes en ce début d'année.[© « Kandinsky, l’odyssée de l’abstrait », simulation : © Culturespaces / Cutback]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Art
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Art
+            </span>
+            <h2 class="dm-news-title">
+             Les cinq expos immanquables de la rentrée à voir à Paris
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/vie-numerique/2022-01-07/google-chrome-comment-supprimer-toutes-les-donnees-quun-site-possede-sur">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/google_chrome_-_comment_supprimer_toutes_les_donnees_quun_site_possede_sur_vous_61d6b29c1f428.jpg?itok=64uR2YCg" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="La version 97 du navigateur offre de nouveaux outils pour effacer les informations accessibles par certains sites sur vous. [© Firmbee.com on Unsplash]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/google_chrome_-_comment_supprimer_toutes_les_donnees_quun_site_possede_sur_vous_61d6b29c1f428.jpg?itok=64uR2YCg" title="La version 97 du navigateur offre de nouveaux outils pour effacer les informations accessibles par certains sites sur vous. [© Firmbee.com on Unsplash]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Internet
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Internet
+            </span>
+            <h2 class="dm-news-title">
+             Google Chrome : Comment supprimer toutes les données qu'un site possède sur vous
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/monde/2022-01-08/stephen-hawking-qui-etait-ce-scientifique-qui-google-rend-hommage-aujourdhui">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_12l49q-taille1200_61d966b8cd144_0.jpg?itok=UC3bj-Fi" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Google rend hommage à Stephen Hawking.[Raul Arboleda/AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_12l49q-taille1200_61d966b8cd144_0.jpg?itok=UC3bj-Fi" title="Google rend hommage à Stephen Hawking.[Raul Arboleda/AFP]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             sciences
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             sciences
+            </span>
+            <h2 class="dm-news-title">
+             Stephen Hawking : qui était ce scientifique à qui Google rend hommage aujourd'hui ?
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_tag">
+         <div class="tag-header">
+          <span class="tag-title">
+           <a href="/bien-etre">
+            bien-être
+           </a>
+          </span>
+         </div>
+         <a href="/sport/2022-01-07/quelle-est-la-meilleure-heure-pour-faire-du-sport-et-maximiser-sa-perte-de-poids">
+          <div class="dm-blocks-item dm-blocks-tag-tiers dm_article-item">
+           <div class="dm-tag-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/running-4782722_1920-taille1200_61d6bef496974.jpg?itok=lsA-Arjm" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Pour maximiser sa perte de poids, est-il préférable de se dépenser le matin, le midi, ou bien le soir ? [©Fotorech/Pixabay]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/running-4782722_1920-taille1200_61d6bef496974.jpg?itok=lsA-Arjm" title="Pour maximiser sa perte de poids, est-il préférable de se dépenser le matin, le midi, ou bien le soir ? [©Fotorech/Pixabay]" width="200"/>
+            </noscript>
+           </div>
+           <div class="dm-tag-info">
+            <span class="dm-tag-tag">
+             bien-être
+            </span>
+            <h2 class="dm-tag-title">
+             Quelle est la meilleure heure pour faire du sport et maximiser sa perte de poids ?
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a href="/videos/conso/2022-01-06/mon-lit-cabane-donnez-envie-vos-enfants-de-faire-de-beaux-reves-1168269">
+          <div class="dm-blocks-item dm-blocks-tag-tiers dm_video-item sponsorised associated-video">
+           <div class="dm-tag-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/Video/openmedias_mlc_61d802df05d13.jpg?itok=Msl3wY8R" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="[OpenMedias]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/Video/openmedias_mlc_61d802df05d13.jpg?itok=Msl3wY8R" title="[OpenMedias]" width="200"/>
+            </noscript>
+           </div>
+           <div class="dm-tag-info">
+            <span class="dm-tag-tag">
+             L'Entreprise de la semaine
+            </span>
+            <h2 class="dm-tag-title">
+             Mon lit cabane : donnez envie à vos enfants de faire de beaux rêves
+            </h2>
+            <span class="dm-tag-sponsorised">
+             Sponsorisé
+            </span>
+           </div>
+          </div>
+         </a>
+         <a href="/nutrition/2021-12-30/les-5-bienfaits-surprenants-de-lextrait-de-pepins-de-pamplemousse-1097611">
+          <div class="dm-blocks-item dm-blocks-tag-tiers dm_article-item">
+           <div class="dm-tag-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/estudio-bloom-toitjphtixu-unsplash_60d42ab46cf52.jpg?itok=Yu880p5S" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="On le consomme en gélules, en comprimés ou dilué dans de l'eau. [© Estúdio Bloom/Unsplash]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/estudio-bloom-toitjphtixu-unsplash_60d42ab46cf52.jpg?itok=Yu880p5S" title="On le consomme en gélules, en comprimés ou dilué dans de l'eau. [© Estúdio Bloom/Unsplash]" width="200"/>
+            </noscript>
+           </div>
+           <div class="dm-tag-info">
+            <span class="dm-tag-tag">
+             Santé
+            </span>
+            <h2 class="dm-tag-title">
+             Les 5 bienfaits surprenants de l’extrait de pépins de pamplemousse
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_1_news">
+         <a href="/culture/2022-01-09/you-saison-4-date-de-sortie-casting-intrigue-tout-ce-que-lon-sait-deja-1168422">
+          <div class="dm-blocks-item dm-blocks-news-hero dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_640_360/public/063_1028019074_61d86e26791b5.jpg?itok=GP16B3Ff" data-icon="" height="360" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="La production a déjà commencé pour la saison 4 de You © MIKE PONT / GETTY IMAGES NORTH AMERICA / GETTY IMAGES VIA AFP
+" width="640"/>
+            <noscript>
+             <img alt="" height="360" src="https://static.cnews.fr/sites/default/files/styles/image_640_360/public/063_1028019074_61d86e26791b5.jpg?itok=GP16B3Ff" title="La production a déjà commencé pour la saison 4 de You © MIKE PONT / GETTY IMAGES NORTH AMERICA / GETTY IMAGES VIA AFP
+" width="640"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Séries
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <h2 class="dm-news-title">
+             «You» saison 4 : date de sortie, casting, intrigue… tout ce que l’on sait déjà
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_3_news">
+         <a class="wrapper-news-tiers" href="/monde/2022-01-07/cameroun-un-arbre-tropical-baptise-du-nom-de-leonardo-dicaprio-1168248">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/063_1357364779-taille1200_61d7ef70dd55f.jpg?itok=Qde75DAW" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Le nom scientifique de l'arbre est Uvariopsis dicaprio. [©Mike Coppola / GETTY IMAGES NORTH AMERICA / Getty Images via AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/063_1357364779-taille1200_61d7ef70dd55f.jpg?itok=Qde75DAW" title="Le nom scientifique de l'arbre est Uvariopsis dicaprio. [©Mike Coppola / GETTY IMAGES NORTH AMERICA / Getty Images via AFP]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Environnement
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Environnement
+            </span>
+            <h2 class="dm-news-title">
+             Cameroun : un arbre tropical baptisé du nom de Leonardo DiCaprio
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/sport/2022-01-08/can-2022-le-palmares-complet-de-la-coupe-dafrique-des-nations-852332">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/icon_ped_050217_05_28_5d0a4b2d8d0c6_0.jpg?itok=qz_Pt7MW" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Les Egyptiens ont remporté la CAN à 7 reprises. [Icon Sport]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/icon_ped_050217_05_28_5d0a4b2d8d0c6_0.jpg?itok=qz_Pt7MW" title="Les Egyptiens ont remporté la CAN à 7 reprises. [Icon Sport]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Football
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Football
+            </span>
+            <h2 class="dm-news-title">
+             CAN 2022 : le palmarès complet de la Coupe d’Afrique des nations
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/sport/2022-01-08/cameroun-burkina-faso-ethiopie-cap-vert-can-2022-quelle-heure-et-sur-quelle-chaine">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/cameroun_can_61d6e00f3bffb.jpg?itok=26T99uLI" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Le Cameroun lance sa CAN 2022 contre le Burkina Faso. [PA Images / Icon Sport]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/cameroun_can_61d6e00f3bffb.jpg?itok=26T99uLI" title="Le Cameroun lance sa CAN 2022 contre le Burkina Faso. [PA Images / Icon Sport]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Football
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Football
+            </span>
+            <h2 class="dm-news-title">
+             Cameroun-Burkina Faso, Ethiopie-Cap Vert… CAN 2022 : à quelle heure et sur quelle chaîne ?
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_tag">
+         <div class="tag-header">
+          <span class="tag-title">
+           <a href="/espace">
+            Espace
+           </a>
+          </span>
+         </div>
+         <a href="/vie-numerique/2022-01-05/ces-2022-sierra-space-devoile-sa-mininavette-spatiale-video-1167585">
+          <div class="dm-blocks-item dm-blocks-tag-tiers dm_article-item associated-video">
+           <div class="dm-tag-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/ces_2022_-_sierra_space_devoile_son_avion_spatial_video-taille1200_61d56f3037d7f.jpg?itok=VvKQJ5my" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="[Patrick T. FALLON / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/ces_2022_-_sierra_space_devoile_son_avion_spatial_video-taille1200_61d56f3037d7f.jpg?itok=VvKQJ5my" title="[Patrick T. FALLON / AFP]" width="200"/>
+            </noscript>
+           </div>
+           <div class="dm-tag-info">
+            <span class="dm-tag-tag">
+             Espace
+            </span>
+            <h2 class="dm-tag-title">
+             CES 2022 : Sierra Space dévoile sa mininavette spatiale (vidéo)
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a href="/culture/2021-12-28/espace-les-3-meilleurs-livres-des-freres-bogdanov-pour-comprendre-lunivers">
+          <div class="dm-blocks-item dm-blocks-tag-tiers dm_article-item">
+           <div class="dm-tag-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/bogda_ok_61cb513fb7eb3.jpg?itok=eJAFieuO" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Les frères Bogdanov étaient les auteurs de nombreux ouvrages destinés à faire comprendre au grand public les mystères de notre Univers. [DR]. " width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/bogda_ok_61cb513fb7eb3.jpg?itok=eJAFieuO" title="Les frères Bogdanov étaient les auteurs de nombreux ouvrages destinés à faire comprendre au grand public les mystères de notre Univers. [DR]. " width="200"/>
+            </noscript>
+           </div>
+           <div class="dm-tag-info">
+            <span class="dm-tag-tag">
+             science
+            </span>
+            <h2 class="dm-tag-title">
+             Espace : les 3 meilleurs livres des frères Bogdanov pour comprendre l'Univers
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a href="/monde/2021-12-29/espace-elon-musk-accuse-de-menacer-la-securite-des-astronautes-chinois-1165444">
+          <div class="dm-blocks-item dm-blocks-tag-tiers dm_article-item">
+           <div class="dm-tag-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/063_1358939085-taille1200_61cc91f41b810_0.jpg?itok=mEEd-yMV" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Le projet Starlink, porté par SpaceX, a sensiblement augmenté la circulation d'objets dans l'espace.[Theo Wargo / GETTY IMAGES NORTH AMERICA / Getty Images via AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/063_1358939085-taille1200_61cc91f41b810_0.jpg?itok=mEEd-yMV" title="Le projet Starlink, porté par SpaceX, a sensiblement augmenté la circulation d'objets dans l'espace.[Theo Wargo / GETTY IMAGES NORTH AMERICA / Getty Images via AFP]" width="200"/>
+            </noscript>
+           </div>
+           <div class="dm-tag-info">
+            <span class="dm-tag-tag">
+             International
+            </span>
+            <h2 class="dm-tag-title">
+             Espace : Elon Musk accusé de menacer la sécurité des astronautes chinois
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_1_news">
+         <a href="/divertissement/2022-01-08/astrologie-voici-le-signe-qui-serait-le-plus-narcissique-1167963">
+          <div class="dm-blocks-item dm-blocks-news-hero dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_640_360/public/astrology-1244728_1920-taille1200_61d6d184e32cb.jpg?itok=OnVuXoGC" data-icon="" height="360" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Miroir, mon beau miroir, dis-mois qui est le (la) plus beau (belle). [©InspiredImages/Pixabay]" width="640"/>
+            <noscript>
+             <img alt="" height="360" src="https://static.cnews.fr/sites/default/files/styles/image_640_360/public/astrology-1244728_1920-taille1200_61d6d184e32cb.jpg?itok=OnVuXoGC" title="Miroir, mon beau miroir, dis-mois qui est le (la) plus beau (belle). [©InspiredImages/Pixabay]" width="640"/>
+            </noscript>
+            <span class="dm-news-tag">
+             zodiaque
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <h2 class="dm-news-title">
+             Astrologie : voici le signe qui serait le plus narcissique
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+        <div class="dm-block dm-block-bloc_3_news">
+         <a class="wrapper-news-tiers" href="/culture/2022-01-09/400-ans-de-moliere-le-genie-du-theatre-est-il-vraiment-mort-sur-scene-1168377">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9um8xq-taille1200_61d841c00bcb6.jpg?itok=8p2tnsm2" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Molière est décédé le 17 février 1673, à l'âge de 51 ans. [BERTRAND GUAY / AFP]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/000_9um8xq-taille1200_61d841c00bcb6.jpg?itok=8p2tnsm2" title="Molière est décédé le 17 février 1673, à l'âge de 51 ans. [BERTRAND GUAY / AFP]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Théâtre
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Théâtre
+            </span>
+            <h2 class="dm-news-title">
+             400 ans de Molière : le génie du théâtre est-il vraiment mort sur scène ?
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/nutrition/2022-01-07/les-5-bienfaits-de-la-vitamine-d-1094556">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/jusdevoyage-zcrwyoxxeps-unsplash-taille1200_60ca00b59f13a_0.jpg?itok=wsecqZLV" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Une exposition au soleil permet de synthétiser de la vitamine D.[Photo by Jusdevoyage on Unsplash]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/jusdevoyage-zcrwyoxxeps-unsplash-taille1200_60ca00b59f13a_0.jpg?itok=wsecqZLV" title="Une exposition au soleil permet de synthétiser de la vitamine D.[Photo by Jusdevoyage on Unsplash]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Santé
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Santé
+            </span>
+            <h2 class="dm-news-title">
+             Ces 5 bienfaits de la vitamine D sur notre corps
+            </h2>
+           </div>
+          </div>
+         </a>
+         <a class="wrapper-news-tiers" href="/nutrition/2022-01-09/voici-les-5-bienfaits-etonnants-de-lavocat-1014241">
+          <div class="dm-blocks-item dm-blocks-news-tiers dm_article-item">
+           <div class="dm-news-image">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/gil-ndjouwou-cuev_otvsic-unsplash_5fa160d2291a9.jpg?itok=oGqEtLoq" data-icon="" height="112" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Voici 5 raisons de ne pas se priver d'avocat. [©Photo by Gil Ndjouwou on Unsplash]" width="200"/>
+            <noscript>
+             <img alt="" height="112" src="https://static.cnews.fr/sites/default/files/styles/image_200_112/public/gil-ndjouwou-cuev_otvsic-unsplash_5fa160d2291a9.jpg?itok=oGqEtLoq" title="Voici 5 raisons de ne pas se priver d'avocat. [©Photo by Gil Ndjouwou on Unsplash]" width="200"/>
+            </noscript>
+            <span class="dm-news-tag">
+             Alimentation
+            </span>
+           </div>
+           <div class="dm-news-info">
+            <span class="dm-news-tag">
+             Alimentation
+            </span>
+            <h2 class="dm-news-title">
+             Voici les 5 bienfaits étonnants de l’avocat
+            </h2>
+           </div>
+          </div>
+         </a>
+        </div>
+       </div>
+       <div class="sidebar-right">
+        <div class="block block-dm-live" id="block-dm-live-dm-live-sidebar-player">
+         <div class="block-content">
+          <div class="wrapper-live-player sidebar-live-player">
+           <a class="player-overlay" href="/le-direct">
+           </a>
+           <div class="dm-api-placeholder" data-muted="1" data-type="live_sidebar" data-videoid="x3b68jn" id="player_live">
+           </div>
+           <div class="live-player-info">
+            <a href="/le-direct">
+             Regarder le direct
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="block block-dm-emission" id="block-dm-emission-dm-emission-sidebar">
+         <div class="block-content">
+          <a class="dm_emission_card_hero" href="/chaque-dimanche-12h-sur-cnews">
+           <span class="dm_emission_card_img">
+            <img alt="La belle histoire de France" height="402" src="https://static.cnews.fr/sites/default/files/histoire_de_france_6007026491f62.jpg" title="La belle histoire de France" width="354"/>
+           </span>
+          </a>
+          <h2 class="title">
+           <a class="block-title-link" href="/replay">
+            Nos émissions
+           </a>
+          </h2>
+          <a class="dm_emission_card_wrapper" href="/emission/2022-01-09/lheure-des-pros-du-09012022-1168746">
+           <span class="dm_emission_card_img">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_80_80/public/Reporters/pascal_praud_5f437579096d2.png?itok=QZA0xeUe" data-icon="" height="80" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" width="80"/>
+            <noscript>
+             <img alt="" height="80" src="https://static.cnews.fr/sites/default/files/styles/image_80_80/public/Reporters/pascal_praud_5f437579096d2.png?itok=QZA0xeUe" width="80"/>
+            </noscript>
+           </span>
+           <span class="dm_emission_card_info">
+            <span class="dm_emission_card_emission">
+             L'Heure des Pros
+            </span>
+            <span class="dm_emission_card_reporter">
+             Pascal Praud
+            </span>
+           </span>
+          </a>
+          <a class="dm_emission_card_wrapper" href="/emission/2022-01-07/midi-news-du-07012022-1168383">
+           <span class="dm_emission_card_img">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_80_80/public/Reporters/sonia_mabrouk_5f43732c6b428.png?itok=0NgD7MaQ" data-icon="" height="80" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" width="80"/>
+            <noscript>
+             <img alt="" height="80" src="https://static.cnews.fr/sites/default/files/styles/image_80_80/public/Reporters/sonia_mabrouk_5f43732c6b428.png?itok=0NgD7MaQ" width="80"/>
+            </noscript>
+           </span>
+           <span class="dm_emission_card_info">
+            <span class="dm_emission_card_emission">
+             Midi News
+            </span>
+            <span class="dm_emission_card_reporter">
+             Sonia Mabrouk
+            </span>
+           </span>
+          </a>
+          <a class="dm_emission_card_wrapper" href="/emission/2022-01-08/punchline-du-08012022-1168692">
+           <span class="dm_emission_card_img">
+            <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_80_80/public/Reporters/laurence_ferrari_5f43736d2e5b1.png?itok=w86ZLDal" data-icon="" height="80" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" width="80"/>
+            <noscript>
+             <img alt="" height="80" src="https://static.cnews.fr/sites/default/files/styles/image_80_80/public/Reporters/laurence_ferrari_5f43736d2e5b1.png?itok=w86ZLDal" width="80"/>
+            </noscript>
+           </span>
+           <span class="dm_emission_card_info">
+            <span class="dm_emission_card_emission">
+             Punchline
+            </span>
+            <span class="dm_emission_card_reporter">
+             Laurence Ferrari
+            </span>
+           </span>
+          </a>
+         </div>
+        </div>
+        <div class="block block-dm-services" id="block-dm-services-ads-300-250-1">
+         <div class="block-content">
+          <script type="text/javascript">
+           var dm_ads=true;
+	var dm_ads_tag='931471';
+          </script>
+          <div class="dm_ads_Middle" id="dm_ads_Middle">
+          </div>
+         </div>
+        </div>
+        <div class="block block-dm-pdf" id="block-dm-pdf-dm-pdf-block-paris-sidebar">
+         <div class="block-content">
+          <div class="pdf">
+           <h2 class="pdf-title">
+            <a href="/editions-pdf">
+             Le Journal
+            </a>
+           </h2>
+           <div class="pdf-cover">
+            <img alt="" class="menuburger-pdf" data-echo="https://www.cnews.fr/sites/default/files/styles/image_190_247/public/editions-pdf/20211129?itok=DHRjn_kR" data-icon="" height="247" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" width="190"/>
+            <noscript>
+             <img alt="" class="menuburger-pdf" height="247" src="/sites/default/files/styles/image_190_247/public/editions-pdf/20211129?itok=DHRjn_kR" width="190"/>
+            </noscript>
+            <div class="pdf-cover-hover">
+             <a class="outbound_pdf_NEP" href="https://www.acpm-suivivn.com/track?link=415&amp;n=20211129&amp;cible=https%3A%2F%2Frss.cnews.fr%2Fpdf%2FNEP%2F20211129" target="_blank">
+              Télécharger
+             </a>
+             <a class="outbound_pdf_NEP" href="https://www.acpm-suivivn.com/track?link=415&amp;n=20211129&amp;cible=https%3A%2F%2Fkiosque.cnews.fr%2Fplayer%3Fq%3DNEP%26d%3D2021-11-29%26c%3DCNEWS" target="_blank">
+              Feuilleter
+             </a>
+             <a class="outbound_pdf_NEP" href="/editions-pdf" target="_blank">
+              Toutes nos éditions
+             </a>
+            </div>
+           </div>
+          </div>
+          <div class="other-links">
+           <div class="pdf-meteo">
+            <a href="/meteo">
+             <span>
+             </span>
+             <span>
+              Météo
+             </span>
+            </a>
+           </div>
+           <div class="pdf-horoscope">
+            <a href="/horoscope">
+             <span>
+             </span>
+             <span>
+              Horoscope
+             </span>
+            </a>
+           </div>
+          </div>
+         </div>
+        </div>
+        <div class="block block-dm-ledirect" id="block-dm-ledirect-dm-ledirect-hp">
+         <h2 class="title">
+          <a href="/le-direct">
+           Dernière minute
+          </a>
+         </h2>
+         <div class="block-content">
+          <a href="/monde/2022-01-09/video-leffondrement-dune-falaise-au-bresil-fait-au-moins-7-morts-et-plusieurs">
+           <div class="dm-ledirect-item">
+            <div class="dm-ledirect-info">
+             <span class="ledirect-date">
+              10:36
+             </span>
+            </div>
+            <div class="dm-ledirect-image">
+             <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_298_93/public/000_9vt9mp_61daa4463e630.jpg?itok=Uvxdf9Rt" data-icon="" height="93" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="«À ce stade, il y a sept morts et trois disparus», a fait savoir le porte-parole des pompiers.[Handout / Minas Gerais Fire Department / AFP]" width="298"/>
+             <noscript>
+              <img alt="" height="93" src="https://static.cnews.fr/sites/default/files/styles/image_298_93/public/000_9vt9mp_61daa4463e630.jpg?itok=Uvxdf9Rt" title="«À ce stade, il y a sept morts et trois disparus», a fait savoir le porte-parole des pompiers.[Handout / Minas Gerais Fire Department / AFP]" width="298"/>
+             </noscript>
+            </div>
+            <div class="dm-ledirect-globalhp">
+             <div class="dm-ledirect-tag">
+              Vidéo
+             </div>
+             <div class="dm-ledirect-title">
+              Vidéo : l’effondrement d’une falaise au Brésil fait au moins 7 morts et plusieurs blessés
+             </div>
+            </div>
+           </div>
+          </a>
+          <a href="/sport/2022-01-09/biathlon-le-programme-complet-de-la-cinquieme-etape-oberhof-1166890">
+           <div class="dm-ledirect-item">
+            <div class="dm-ledirect-info">
+             <span class="ledirect-date">
+              10:27
+             </span>
+            </div>
+            <div class="dm-ledirect-image">
+             <img alt="Oberhof accueille la 5e étape de la Coupe du monde de biathlon." data-echo="https://static.cnews.fr/sites/default/files/styles/image_298_93/public/biathlon_coupe_du_monde_berhof_61d3142dc09b7_0.jpg?itok=8x6rz7Zm" data-icon="" height="93" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Oberhof accueille la 5e étape de la Coupe du monde de biathlon. [Manzoni / Icon Sport]" width="298"/>
+             <noscript>
+              <img alt="Oberhof accueille la 5e étape de la Coupe du monde de biathlon." height="93" src="https://static.cnews.fr/sites/default/files/styles/image_298_93/public/biathlon_coupe_du_monde_berhof_61d3142dc09b7_0.jpg?itok=8x6rz7Zm" title="Oberhof accueille la 5e étape de la Coupe du monde de biathlon. [Manzoni / Icon Sport]" width="298"/>
+             </noscript>
+            </div>
+            <div class="dm-ledirect-globalhp">
+             <div class="dm-ledirect-tag">
+              Sports d'hiver
+             </div>
+             <div class="dm-ledirect-title">
+              Biathlon : le programme complet de la cinquième étape à Oberhof
+             </div>
+            </div>
+           </div>
+          </a>
+          <a href="/sport/2022-01-09/adelaide-deux-ans-plus-tard-gael-monfils-remporte-son-premier-tournoi-1168800">
+           <div class="dm-ledirect-item">
+            <div class="dm-ledirect-info">
+             <span class="ledirect-date">
+              10:26
+             </span>
+            </div>
+            <div class="dm-ledirect-image">
+             <img alt="Gaël Monfils a battu Karen Khachannov en finale." data-echo="https://static.cnews.fr/sites/default/files/styles/image_298_93/public/tennis_tournoi_adelaide_gael_monfils_61daa90d871d2_0.jpg?itok=KwQOFhny" data-icon="" height="93" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Gaël Monfils a battu Karen Khachannov en finale. [Abaca / Icon Sport]" width="298"/>
+             <noscript>
+              <img alt="Gaël Monfils a battu Karen Khachannov en finale." height="93" src="https://static.cnews.fr/sites/default/files/styles/image_298_93/public/tennis_tournoi_adelaide_gael_monfils_61daa90d871d2_0.jpg?itok=KwQOFhny" title="Gaël Monfils a battu Karen Khachannov en finale. [Abaca / Icon Sport]" width="298"/>
+             </noscript>
+            </div>
+            <div class="dm-ledirect-globalhp">
+             <div class="dm-ledirect-tag">
+              Tennis
+             </div>
+             <div class="dm-ledirect-title">
+              Adelaïde : Deux ans plus tard, Gaël Monfils remporte son premier tournoi
+             </div>
+            </div>
+           </div>
+          </a>
+          <a href="/france/2022-01-09/presidentielle-2022-je-suis-une-des-rares-avec-valerie-pecresse-avoir-les-500">
+           <div class="dm-ledirect-item">
+            <div class="dm-ledirect-info">
+             <span class="ledirect-date">
+              09:55
+             </span>
+            </div>
+            <div class="dm-ledirect-image">
+             <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_298_93/public/capture_decran_2022-01-09_a_10.23.26_61daa9a04e48e.png?itok=J_eoMP75" data-icon="" height="93" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" width="298"/>
+             <noscript>
+              <img alt="" height="93" src="https://static.cnews.fr/sites/default/files/styles/image_298_93/public/capture_decran_2022-01-09_a_10.23.26_61daa9a04e48e.png?itok=J_eoMP75" width="298"/>
+             </noscript>
+            </div>
+            <div class="dm-ledirect-globalhp">
+             <div class="dm-ledirect-tag">
+              Politique
+             </div>
+             <div class="dm-ledirect-title">
+              Présidentielle 2022 : «Je suis une des rares avec Valérie Pécresse à avoir les 500 parrainages» affirme Anne Hidalgo
+             </div>
+            </div>
+           </div>
+          </a>
+          <a href="/faits-divers/2022-01-09/le-champion-du-monde-junior-de-tir-meurt-apres-setre-tire-accidentellement">
+           <div class="dm-ledirect-item">
+            <div class="dm-ledirect-info">
+             <span class="ledirect-date">
+              09:17
+             </span>
+            </div>
+            <div class="dm-ledirect-image">
+             <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_298_93/public/hiuhh_61da94d0aa4b5_0.jpg?itok=Wp39GKVh" data-icon="" height="93" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Cristian Ghilli a été hospitalisé mais a succombé à ses blessures. [Illustration / Andreas Solaro / AFP]" width="298"/>
+             <noscript>
+              <img alt="" height="93" src="https://static.cnews.fr/sites/default/files/styles/image_298_93/public/hiuhh_61da94d0aa4b5_0.jpg?itok=Wp39GKVh" title="Cristian Ghilli a été hospitalisé mais a succombé à ses blessures. [Illustration / Andreas Solaro / AFP]" width="298"/>
+             </noscript>
+            </div>
+            <div class="dm-ledirect-globalhp">
+             <div class="dm-ledirect-tag">
+              Faits divers
+             </div>
+             <div class="dm-ledirect-title">
+              Le champion du monde junior de tir meurt après s'être tiré accidentellement une balle dans le ventre
+             </div>
+            </div>
+           </div>
+          </a>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+     <div id="blockLength">
+      <div id="letop-hp">
+       <div class="bloc-letop-hp">
+        <div class="block block-dm-letop" id="block-dm-letop-dm-letop-hp">
+         <div class="block-content">
+          <div class="dm-letop-main">
+           <a href="/divertissement/2022-01-08/astrologie-avec-quel-signe-le-verseau-est-il-compatible-1168008">
+            <div class="dm-letop-item dm-letop-hp">
+             <div class="dm-letop-image">
+              <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_340_605/public/aquarius-6751380_1920-taille1200_61d6eac2348cb.jpg?itok=d-374_Jc" data-icon="" height="605" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Le signe du Verseau est à l’honneur du 21 janvier au 19 février. [©Darkmoon_Art/Pixabay]" width="340"/>
+              <noscript>
+               <img alt="" height="605" src="https://static.cnews.fr/sites/default/files/styles/image_340_605/public/aquarius-6751380_1920-taille1200_61d6eac2348cb.jpg?itok=d-374_Jc" title="Le signe du Verseau est à l’honneur du 21 janvier au 19 février. [©Darkmoon_Art/Pixabay]" width="340"/>
+              </noscript>
+              <div class="dm-letop-index">
+               01
+              </div>
+              <div class="dm-letop-bottom">
+               <div class="dm-letop-tag">
+                zodiaque
+               </div>
+               <div class="dm-letop-title">
+                Astrologie : avec quel signe le Verseau est-il compatible ?
+               </div>
+              </div>
+             </div>
+            </div>
+           </a>
+           <a href="/france/2022-01-07/variant-omicron-de-nouveaux-symptomes-suspectes-au-niveau-des-oreilles-1168413">
+            <div class="dm-letop-item dm-letop-hp">
+             <div class="dm-letop-image">
+              <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_340_605/public/000_9vk4ww-taille1200_61d85ed25297d.jpg?itok=_sWdTGE3" data-icon="" height="605" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Plusieurs malades ont décrit ce symptôme. 
+(Stéphane DE SAKUTIN / AFP)" width="340"/>
+              <noscript>
+               <img alt="" height="605" src="https://static.cnews.fr/sites/default/files/styles/image_340_605/public/000_9vk4ww-taille1200_61d85ed25297d.jpg?itok=_sWdTGE3" title="Plusieurs malades ont décrit ce symptôme. 
+(Stéphane DE SAKUTIN / AFP)" width="340"/>
+              </noscript>
+              <div class="dm-letop-index">
+               02
+              </div>
+              <div class="dm-letop-bottom">
+               <div class="dm-letop-tag">
+                Coronavirus
+               </div>
+               <div class="dm-letop-title">
+                Variant Omicron : de nouveaux symptômes suspectés au niveau des oreilles
+               </div>
+              </div>
+             </div>
+            </div>
+           </a>
+           <a href="/divertissement/2022-01-08/astrologie-voici-le-signe-qui-serait-le-plus-narcissique-1167963">
+            <div class="dm-letop-item dm-letop-hp">
+             <div class="dm-letop-image">
+              <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_340_605/public/astrology-1244728_1920-taille1200_61d6d184e32cb.jpg?itok=DOwWtIWJ" data-icon="" height="605" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Miroir, mon beau miroir, dis-mois qui est le (la) plus beau (belle). [©InspiredImages/Pixabay]" width="340"/>
+              <noscript>
+               <img alt="" height="605" src="https://static.cnews.fr/sites/default/files/styles/image_340_605/public/astrology-1244728_1920-taille1200_61d6d184e32cb.jpg?itok=DOwWtIWJ" title="Miroir, mon beau miroir, dis-mois qui est le (la) plus beau (belle). [©InspiredImages/Pixabay]" width="340"/>
+              </noscript>
+              <div class="dm-letop-index">
+               03
+              </div>
+              <div class="dm-letop-bottom">
+               <div class="dm-letop-tag">
+                zodiaque
+               </div>
+               <div class="dm-letop-title">
+                Astrologie : voici le signe qui serait le plus narcissique
+               </div>
+              </div>
+             </div>
+            </div>
+           </a>
+           <a href="/sport/2022-01-07/quelle-est-la-meilleure-heure-pour-faire-du-sport-et-maximiser-sa-perte-de-poids">
+            <div class="dm-letop-item dm-letop-hp">
+             <div class="dm-letop-image">
+              <img alt="" data-echo="https://static.cnews.fr/sites/default/files/styles/image_340_605/public/running-4782722_1920-taille1200_61d6bef496974.jpg?itok=Uu6yj0d4" data-icon="" height="605" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Pour maximiser sa perte de poids, est-il préférable de se dépenser le matin, le midi, ou bien le soir ? [©Fotorech/Pixabay]" width="340"/>
+              <noscript>
+               <img alt="" height="605" src="https://static.cnews.fr/sites/default/files/styles/image_340_605/public/running-4782722_1920-taille1200_61d6bef496974.jpg?itok=Uu6yj0d4" title="Pour maximiser sa perte de poids, est-il préférable de se dépenser le matin, le midi, ou bien le soir ? [©Fotorech/Pixabay]" width="340"/>
+              </noscript>
+              <div class="dm-letop-index">
+               04
+              </div>
+              <div class="dm-letop-bottom">
+               <div class="dm-letop-tag">
+                bien-être
+               </div>
+               <div class="dm-letop-title">
+                Quelle est la meilleure heure pour faire du sport et maximiser sa perte de poids ?
+               </div>
+              </div>
+             </div>
+            </div>
+           </a>
+           <a href="/videos/france/2022-01-08/presidentielle-2022-emmanuel-macron-toujours-favori-devant-marine-le-pen-et">
+            <div class="dm-letop-item dm-letop-hp">
+             <div class="dm-letop-image">
+              <img alt="Présidentielle 2022 : Emmanuel Macron, toujours favori" data-echo="https://static.cnews.fr/sites/default/files/styles/image_340_605/public/Video/x86y7e1_61d93ee953858.jpg?itok=ylUUI4Os" data-icon="" height="605" src="//static.cnews.fr/sites/default/files/directmatin/image_placeholder_rect_basic.gif" title="Présidentielle 2022 : Emmanuel Macron, toujours favori" width="340"/>
+              <noscript>
+               <img alt="Présidentielle 2022 : Emmanuel Macron, toujours favori" height="605" src="https://static.cnews.fr/sites/default/files/styles/image_340_605/public/Video/x86y7e1_61d93ee953858.jpg?itok=ylUUI4Os" title="Présidentielle 2022 : Emmanuel Macron, toujours favori" width="340"/>
+              </noscript>
+              <div class="dm-letop-index">
+               05
+              </div>
+              <div class="dm-letop-bottom">
+               <div class="dm-letop-tag">
+                Politique
+               </div>
+               <div class="dm-letop-title">
+                Présidentielle 2022 : Emmanuel Macron toujours favori devant Marine Le Pen et Valérie Pécresse
+               </div>
+              </div>
+             </div>
+            </div>
+           </a>
+          </div>
+         </div>
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </div>
+   <footer>
+    <div id="footer-pre">
+    </div>
+    <div id="footer-middle">
+     <div class="wrapper-center-footer">
+      <a class="link-logo-footer" href="/" rel="home" title="Accueil">
+       <div class="logo-footer">
+        <img alt="Accueil" src="https://static.cnews.fr/sites/all/themes/directmatinv4/cnews-logo.png"/>
+       </div>
+      </a>
+     </div>
+    </div>
+    <div id="footer-post">
+     <nav class="block block-menu" id="block-menu-footer" role="navigation">
+      <ul>
+       <li>
+        <a href="/editions-pdf">
+         Editions PDF
+        </a>
+       </li>
+       <li>
+        <a href="/mentions-legales">
+         Mentions légales
+        </a>
+       </li>
+       <li>
+        <a href="/politique-cookies">
+         Politique cookies
+        </a>
+       </li>
+       <li>
+        <a class="active" href="/" id="didomi-footer-link">
+         Gestion des cookies
+        </a>
+       </li>
+       <li>
+        <a href="https://static.canal-plus.net/gitlab/infoslegales/production/cgu.html" target="_blank">
+         CGU
+        </a>
+       </li>
+       <li>
+        <a href="https://www.cnews.fr">
+         Actualité
+        </a>
+       </li>
+       <li>
+        <a href="https://www.cnews.fr/jeux/mots-croises">
+         Mots Croisés
+        </a>
+       </li>
+       <li>
+        <a href="https://www.cnews.fr/jeux/mots-fleches">
+         Mots-Fléchés
+        </a>
+       </li>
+       <li>
+        <a href="https://www.cnews.fr/jeux/sudoku">
+         Sudoku
+        </a>
+       </li>
+       <li>
+        <a href="https://www.cnews.fr/programme-tv-tnt">
+         Programme TV
+        </a>
+       </li>
+      </ul>
+     </nav>
+     <div class="block block-dm-live" id="block-dm-live-dm-live-corner-mobile-player">
+      <div class="block-content">
+       <div class="wrapper-player-mobile">
+        <div class="close-mobile-player">
+        </div>
+        <div class="dm-api-placeholder" data-muted="1" data-type="live_corner_mobile" data-videoid="x3b68jn" id="player-live-mobile">
+        </div>
+       </div>
+      </div>
+     </div>
+    </div>
+   </footer>
+   <!--[if lte IE 9]>
+<script src="/sites/default/files/advagg_js/js__Zu4T0om9-n411DbGTTv0zH6dzNyN1DzlwvJFYkk_gjQ__Ax8qf8v7hx4j7B43Xsq1yMyy9YiJ1lcnc8WmO-M6MRQ__XGjoKAeLwtV_vhCXTa61mI7tYnQcVuMOGZVHbNTe8Wc.js#ie9-" onload="if(jQuery.isFunction(jQuery.holdReady))jQuery.holdReady(true)
+function advagg_mod_1(){advagg_mod_1.count=++advagg_mod_1.count||1;try{if(advagg_mod_1.count<=40){init_drupal_core_settings();advagg_mod_1.count=100}}catch(e){if(advagg_mod_1.count>=40){throw e}else window.setTimeout(advagg_mod_1,1)}}
+function advagg_mod_1_check(){if(window.init_drupal_core_settings&&window.jQuery&&window.Drupal){advagg_mod_1()}else window.setTimeout(advagg_mod_1_check,1)};advagg_mod_1_check();"></script>
+<![endif]-->
+   <!--[if gt IE 9]>
+<script src="/sites/default/files/advagg_js/js__Zu4T0om9-n411DbGTTv0zH6dzNyN1DzlwvJFYkk_gjQ__Ax8qf8v7hx4j7B43Xsq1yMyy9YiJ1lcnc8WmO-M6MRQ__XGjoKAeLwtV_vhCXTa61mI7tYnQcVuMOGZVHbNTe8Wc.js#ie10+" defer="defer" onload="if(jQuery.isFunction(jQuery.holdReady))jQuery.holdReady(true)
+function advagg_mod_1(){advagg_mod_1.count=++advagg_mod_1.count||1;try{if(advagg_mod_1.count<=40){init_drupal_core_settings();advagg_mod_1.count=100}}catch(e){if(advagg_mod_1.count>=40){throw e}else window.setTimeout(advagg_mod_1,1)}}
+function advagg_mod_1_check(){if(window.init_drupal_core_settings&&window.jQuery&&window.Drupal){advagg_mod_1()}else window.setTimeout(advagg_mod_1_check,1)};advagg_mod_1_check();"></script>
+<![endif]-->
+   <!--[if !IE]><!-->
+   <script defer="defer" onload="if(jQuery.isFunction(jQuery.holdReady))jQuery.holdReady(true)
+function advagg_mod_1(){advagg_mod_1.count=++advagg_mod_1.count||1;try{if(advagg_mod_1.count&lt;=40){init_drupal_core_settings();advagg_mod_1.count=100}}catch(e){if(advagg_mod_1.count&gt;=40){throw e}else window.setTimeout(advagg_mod_1,1)}}
+function advagg_mod_1_check(){if(window.init_drupal_core_settings&amp;&amp;window.jQuery&amp;&amp;window.Drupal){advagg_mod_1()}else window.setTimeout(advagg_mod_1_check,1)};advagg_mod_1_check();" src="/sites/default/files/advagg_js/js__Zu4T0om9-n411DbGTTv0zH6dzNyN1DzlwvJFYkk_gjQ__Ax8qf8v7hx4j7B43Xsq1yMyy9YiJ1lcnc8WmO-M6MRQ__XGjoKAeLwtV_vhCXTa61mI7tYnQcVuMOGZVHbNTe8Wc.js" type="text/javascript">
+   </script>
+   <!--<![endif]-->
+   <script type="text/javascript">
+    function init_drupal_core_settings() {jQuery.extend(Drupal.settings, {"basePath":"\/","pathPrefix":"","ajaxPageState":{"theme":"directmatinv4","theme_token":"RLw_uAIFslyXy6EMjog71g9oWUUwCku6KuhezJPwz9c","jquery_version":"1.9","js":{"sites\/all\/modules\/contrib\/jquery_update\/replace\/jquery\/1.9\/jquery.min.js":1,"misc\/jquery-extend-3.4.0.js":1,"misc\/jquery-html-prefilter-3.5.0-backport.js":1,"misc\/jquery.once.js":1,"misc\/drupal.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/ui\/minified\/jquery.ui.core.min.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/ui\/external\/jquery.cookie.js":1,"sites\/all\/modules\/contrib\/jquery_update\/replace\/misc\/jquery.form.min.js":1,"misc\/ajax.js":1,"sites\/all\/modules\/contrib\/jquery_update\/js\/jquery_update.js":1,"sites\/all\/modules\/custom\/dm_livefoot\/js\/dm_livefoot.js":1,"sites\/all\/modules\/custom\/dm_livefoot\/js\/swipe.min.js":1,"sites\/all\/modules\/altered\/fb_instant_articles\/modules\/fb_instant_articles_display\/js\/admin.js":1,"sites\/all\/modules\/contrib\/modal_forms\/js\/modal_forms_password.js":1,"public:\/\/languages\/fr_SQzq98yx2GRuZVUuDlRK2fXjZzexMixQiP5358JZ2uk.js":1,"misc\/progress.js":1,"sites\/all\/modules\/contrib\/ctools\/js\/modal.js":1,"sites\/all\/modules\/contrib\/modal_forms\/js\/modal_forms_popup.js":1,"sites\/all\/modules\/contrib\/ajaxblocks\/ajaxblocks.js":1,"sites\/all\/modules\/altered\/lazyloader\/lazyloader.js":1,"sites\/all\/libraries\/jquery.visibilityChanged\/visibilityChanged.js":1,"sites\/all\/libraries\/echo\/dist\/echo.min.js":1,"sites\/all\/themes\/directmatinv4\/js\/postscribe\/htmlParser\/htmlParser.js":1,"sites\/all\/themes\/directmatinv4\/js\/postscribe\/postscribe.js":1,"sites\/all\/themes\/directmatinv4\/js\/script.js":1,"sites\/all\/themes\/mothership\/mothership\/js\/contextual.js":1},"css":{"modules\/system\/system.base.css":1,"modules\/system\/system.menus.css":1,"modules\/system\/system.messages.css":1,"modules\/system\/system.theme.css":1,"misc\/ui\/jquery.ui.core.css":1,"misc\/ui\/jquery.ui.theme.css":1,"modules\/aggregator\/aggregator.css":1,"sites\/all\/modules\/contrib\/date\/date_api\/date.css":1,"sites\/all\/modules\/contrib\/date\/date_popup\/themes\/datepicker.1.7.css":1,"sites\/all\/modules\/custom\/dm_livefoot\/css\/dm_livefoot_v2.css":1,"sites\/all\/modules\/custom\/dm_livefoot\/css\/team_flags.css":1,"modules\/field\/theme\/field.css":1,"sites\/all\/modules\/contrib\/logintoboggan\/logintoboggan.css":1,"modules\/node\/node.css":1,"modules\/user\/user.css":1,"sites\/all\/modules\/contrib\/views\/css\/views.css":1,"sites\/all\/modules\/altered\/lazyloader\/lazyloader.css":1,"sites\/all\/modules\/contrib\/ckeditor\/css\/ckeditor.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/ctools.css":1,"sites\/all\/modules\/contrib\/ctools\/css\/modal.css":1,"sites\/all\/modules\/contrib\/modal_forms\/css\/modal_forms_popup.css":1,"sites\/all\/modules\/custom\/dm_emission\/theme\/css\/dm_emission.css":1,"sites\/all\/modules\/contrib\/node_embed\/plugins\/node_embed\/node_embed.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/normalize.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/mothership-default.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/mothership-layout.css":1,"sites\/all\/themes\/mothership\/mothership\/css\/mothership.css":1,"sites\/all\/themes\/directmatinv4\/css\/fonts.css":1,"sites\/all\/themes\/directmatinv4\/css\/header.css":1,"sites\/all\/themes\/directmatinv4\/css\/footer.css":1,"sites\/all\/themes\/directmatinv4\/css\/letop.css":1,"sites\/all\/themes\/directmatinv4\/css\/le-direct.css":1,"sites\/all\/themes\/directmatinv4\/css\/structure.css":1,"sites\/all\/themes\/directmatinv4\/css\/content-news.css":1,"sites\/all\/themes\/directmatinv4\/css\/menuburger.css":1,"sites\/all\/themes\/directmatinv4\/css\/diaporamas.css":1,"sites\/all\/themes\/directmatinv4\/css\/tags.css":1,"sites\/all\/themes\/directmatinv4\/css\/home.css":1,"sites\/all\/themes\/directmatinv4\/css\/services.css":1,"sites\/all\/themes\/directmatinv4\/css\/responsive.css":1}},"lazyloader":{"throttle":"0","offset":"300","debounce":1,"unload":0,"icon":"","offsetX":0,"offsetY":0,"visibility":true},"CToolsModal":{"loadingText":"En cours de chargement...","closeText":"Fermer la fen\u00eatre","closeImage":"\u003Cimg data-echo=\u0022https:\/\/static.cnews.fr\/sites\/all\/modules\/contrib\/ctools\/images\/icon-close-window.png\u0022 data-icon=\u0022\u0022 src=\u0022\/\/static.cnews.fr\/sites\/default\/files\/directmatin\/image_placeholder_rect_basic.gif\u0022 alt=\u0022Fermer la fen\u00eatre\u0022 title=\u0022Fermer la fen\u00eatre\u0022 \/\u003E\u003Cnoscript\u003E\u003Cimg src=\u0022https:\/\/static.cnews.fr\/sites\/all\/modules\/contrib\/ctools\/images\/icon-close-window.png\u0022 alt=\u0022Fermer la fen\u00eatre\u0022 title=\u0022Fermer la fen\u00eatre\u0022 \/\u003E\u003C\/noscript\u003E","throbber":"\u003Cimg data-echo=\u0022https:\/\/static.cnews.fr\/sites\/all\/modules\/contrib\/ctools\/images\/throbber.gif\u0022 data-icon=\u0022\u0022 src=\u0022\/\/static.cnews.fr\/sites\/default\/files\/directmatin\/image_placeholder_rect_basic.gif\u0022 alt=\u0022En cours de chargement\u0022 title=\u0022En cours de chargement...\u0022 \/\u003E\u003Cnoscript\u003E\u003Cimg src=\u0022https:\/\/static.cnews.fr\/sites\/all\/modules\/contrib\/ctools\/images\/throbber.gif\u0022 alt=\u0022En cours de chargement\u0022 title=\u0022En cours de chargement...\u0022 \/\u003E\u003C\/noscript\u003E"},"modal-popup-small":{"modalSize":{"type":"fixed","width":300,"height":300},"modalOptions":{"opacity":0.84999999999999998,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg data-echo=\u0022https:\/\/static.cnews.fr\/sites\/all\/modules\/contrib\/modal_forms\/images\/loading_animation.gif\u0022 data-icon=\u0022\u0022 src=\u0022\/\/static.cnews.fr\/sites\/default\/files\/directmatin\/image_placeholder_rect_basic.gif\u0022 alt=\u0022En cours de chargement...\u0022 title=\u0022En cours de chargement\u0022 \/\u003E\u003Cnoscript\u003E\u003Cimg src=\u0022https:\/\/static.cnews.fr\/sites\/all\/modules\/contrib\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022En cours de chargement...\u0022 title=\u0022En cours de chargement\u0022 \/\u003E\u003C\/noscript\u003E","closeText":"Fermer"},"modal-popup-medium":{"modalSize":{"type":"fixed","width":800,"height":500},"modalOptions":{"opacity":0.84999999999999998,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg data-echo=\u0022https:\/\/static.cnews.fr\/sites\/all\/modules\/contrib\/modal_forms\/images\/loading_animation.gif\u0022 data-icon=\u0022\u0022 src=\u0022\/\/static.cnews.fr\/sites\/default\/files\/directmatin\/image_placeholder_rect_basic.gif\u0022 alt=\u0022En cours de chargement...\u0022 title=\u0022En cours de chargement\u0022 \/\u003E\u003Cnoscript\u003E\u003Cimg src=\u0022https:\/\/static.cnews.fr\/sites\/all\/modules\/contrib\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022En cours de chargement...\u0022 title=\u0022En cours de chargement\u0022 \/\u003E\u003C\/noscript\u003E","closeText":"Fermer"},"modal-popup-large":{"modalSize":{"type":"scale","width":0.80000000000000004,"height":0.80000000000000004},"modalOptions":{"opacity":0.84999999999999998,"background":"#000"},"animation":"fadeIn","modalTheme":"ModalFormsPopup","throbber":"\u003Cimg data-echo=\u0022https:\/\/static.cnews.fr\/sites\/all\/modules\/contrib\/modal_forms\/images\/loading_animation.gif\u0022 data-icon=\u0022\u0022 src=\u0022\/\/static.cnews.fr\/sites\/default\/files\/directmatin\/image_placeholder_rect_basic.gif\u0022 alt=\u0022En cours de chargement...\u0022 title=\u0022En cours de chargement\u0022 \/\u003E\u003Cnoscript\u003E\u003Cimg src=\u0022https:\/\/static.cnews.fr\/sites\/all\/modules\/contrib\/modal_forms\/images\/loading_animation.gif\u0022 alt=\u0022En cours de chargement...\u0022 title=\u0022En cours de chargement\u0022 \/\u003E\u003C\/noscript\u003E","closeText":"Fermer"},"urlIsAjaxTrusted":{"\/":true},"ajaxblocks":"blocks=dm_hpm-header_alert_band\/dm_menuburger-dm_menuburger"}); 
+if(jQuery.isFunction(jQuery.holdReady)){jQuery.holdReady(false);}} if(window.jQuery && window.Drupal){init_drupal_core_settings();}
+   </script>
+  </div>
+  <div id="programmatic_ads">
+  </div>
+  <script defer="" src="//ced.sascdn.com/tag/2653/smart.js" type="text/javascript">
+  </script>
+  <script defer="" src="//ced.sascdn.com/tag/2653/smart.js" type="2a44e1cc6dc88b9c6b2d6424-text/javascript">
+  </script>
+  <script type="text/javascript">
+   window.NREUM||(NREUM={});NREUM.info={"beacon":"bam-cell.nr-data.net","licenseKey":"16073fc0f5","applicationID":"170788116","transactionName":"Y1FTZBFQXkZSAUFbDFobcFMXWF9bHAxaVgZrRFBXBm5UUFUDQF4X","queueTime":0,"applicationTime":168,"atts":"TxZQEllKTUg=","errorBeacon":"bam-cell.nr-data.net","agent":""}
+  </script>
+  <script type="text/javascript">
+   (function(){window['__CF$cv$params']={r:'6cacba952c4708ab',m:'apwvvtBT9gUWE1U4yOuq2ErShX8zBX755rd5lah16GQ-1641721485-0-Aeyp5V8c1uXCa5dpzUfEbCpOfgSIIaC2ChVvSubaD4sQ61H/PKrCIuMLx/dWiEsrgEbvVXfel8PaKMucm5INdtkHHH3q05G9tDJvNEOBzOMe7cJGpOFjhUCzcGkXPVzaQw==',s:[0xd7aabc9d93,0xa8127f4381],}})();
+  </script>
+ </body>
+</html>

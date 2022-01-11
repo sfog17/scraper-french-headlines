@@ -1,0 +1,19 @@
+# IDE
+
+.vscode/
+.idea/
+
+# Python Dev
+
+__pycache__/
+.pytest_cache/
+venv/
+venv-dev/
+
+# Data
+
+data/*.html
+
+# Test
+test-output/*.html
+
