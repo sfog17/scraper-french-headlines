@@ -1,4 +1,4 @@
-# parse-headlines
+# scraper-french-headlines
 
 ## Objective
 
