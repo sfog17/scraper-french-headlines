@@ -4,7 +4,8 @@
 name: Scrape Headlines
 on:   
   schedule:
-    - cron: "0 9,15,21 * * *"
+    # Times in UTC, corresponds to 9h/15h/21h French time
+    - cron: "0 8,14,20 * * *"
 jobs:
   build:
     runs-on: ubuntu-latest
