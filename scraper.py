@@ -98,7 +98,7 @@ class Scraper:
 
         # File to output
         utc_now = datetime.datetime.now(datetime.timezone.utc)
-        timestamp = utc_now.strftime("%Y-%m-%dT%H-%M%-SZ")
+        timestamp = utc_now.strftime("%Y-%m-%dT%H-%M-%SZ")
         out_file = self.out_dir / f"{timestamp}_{self.name}.csv"
         logging.info(
             f"{self.name} - Output top {self.max_headlines} headlines to {out_file.absolute()}"
