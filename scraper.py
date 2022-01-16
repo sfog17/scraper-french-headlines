@@ -1,3 +1,4 @@
+import copy
 import csv
 import datetime
 import logging
@@ -58,10 +59,10 @@ class Scraper:
 
     def parse_headline(self, tag: element.Tag) -> Headline:
         logging.debug(tag)
-        is_premium = self.parse_premium(tag)
-        has_picture = self.parse_picture(tag)
-        url = self.parse_url(tag)
-        title = self.parse_title(tag)
+        has_picture = self.parse_picture(copy.copy(tag))
+        is_premium = self.parse_premium(copy.copy(tag))
+        url = self.parse_url(copy.copy(tag))
+        title = self.parse_title(copy.copy(tag))
         headline = Headline(
             title=title, url=url, premium=is_premium, picture=has_picture
         )
@@ -101,7 +102,8 @@ class Scraper:
         timestamp = utc_now.strftime("%Y-%m-%dT%H-%M-%SZ")
         out_file = self.out_dir / f"{timestamp}_{self.name}.csv"
         logging.info(
-            f"{self.name} - Output top {self.max_headlines} headlines to {out_file.absolute()}"
+            f"{self.name} - Output top {self.max_headlines} headlines to"
+            f" {out_file.absolute()}"
         )
 
         with open(out_file, "w", newline="", encoding="utf-8") as f_out:
