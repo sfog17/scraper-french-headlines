@@ -40,6 +40,10 @@ class LeParisienScraper(Scraper):
         elif tag.find(attrs={"class": "story-headline-highlight"}):
             tag_title = tag.find(attrs={"class": "story-headline-highlight"}).text
         else:
+            abo = tag.find("span", attrs={"class": "abo"})
+            if abo:
+                abo.extract()
             tag_title = tag.text
+
         title = format_title(tag_title)
         return title

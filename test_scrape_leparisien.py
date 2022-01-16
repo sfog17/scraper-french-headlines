@@ -48,3 +48,19 @@ def test_scrape_headline_prem2():
         picture=True,
     )
     assert LeParisienScraper().parse_headline(headline) == expected
+
+
+def test_scrape_headline_prem_short():
+    headline = query_from_file(
+        TEST_DIR.joinpath("leparisien_article_prem_short.html")
+    )
+    expected = Headline(
+        title=(
+            "Un milliard de doses de vaccin distribuées, mais... Pourquoi Covax laisse"
+            " un goût amer aux pays pauvres"
+        ),
+        url="https://www.leparisien.fr/societe/sante/un-milliard-de-doses-de-vaccin-distribuees-mais-pourquoi-covax-laisse-un-gout-amer-aux-pays-pauvres-16-01-2022-IEF5FNZWT5HYLJMZGQ47F36T7I.php",
+        premium=True,
+        picture=False,
+    )
+    assert LeParisienScraper().parse_headline(headline) == expected
