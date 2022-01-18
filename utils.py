@@ -16,7 +16,7 @@ def query_from_file(in_file: Path):
 def split_article(html_name: str, scraper: Scraper, num_articles: int):
     soup = query_from_file(TEST_DIR.joinpath(f"{html_name}.html"))
     tags = scraper.split_headlines(soup)
-    f_out = TEST_OUT_DIR / f"{html_name}-split.html"
-    with f_out.open("w", encoding="utf-8") as f_out:
+    file_out_path = TEST_OUT_DIR / f"{html_name}-split.html"
+    with file_out_path.open("w", encoding="utf-8") as f_out:
         f_out.write("\n----\n".join([tag.prettify() for tag in tags]))
     assert len(tags) == num_articles
